@@ -1,0 +1,14 @@
+H:\6TTI\C#\6TTI_Limet_Maxence_Premier_Poo\bin\Debug\net8.0\6TTI_Limet_Maxence_Premier_Poo.exe
+H:\6TTI\C#\6TTI_Limet_Maxence_Premier_Poo\bin\Debug\net8.0\6TTI_Limet_Maxence_Premier_Poo.deps.json
+H:\6TTI\C#\6TTI_Limet_Maxence_Premier_Poo\bin\Debug\net8.0\6TTI_Limet_Maxence_Premier_Poo.runtimeconfig.json
+H:\6TTI\C#\6TTI_Limet_Maxence_Premier_Poo\bin\Debug\net8.0\6TTI_Limet_Maxence_Premier_Poo.dll
+H:\6TTI\C#\6TTI_Limet_Maxence_Premier_Poo\bin\Debug\net8.0\6TTI_Limet_Maxence_Premier_Poo.pdb
+H:\6TTI\C#\6TTI_Limet_Maxence_Premier_Poo\obj\Debug\net8.0\6TTI_Limet_Maxence_Premier_Poo.GeneratedMSBuildEditorConfig.editorconfig
+H:\6TTI\C#\6TTI_Limet_Maxence_Premier_Poo\obj\Debug\net8.0\6TTI_Limet_Maxence_Premier_Poo.AssemblyInfoInputs.cache
+H:\6TTI\C#\6TTI_Limet_Maxence_Premier_Poo\obj\Debug\net8.0\6TTI_Limet_Maxence_Premier_Poo.AssemblyInfo.cs
+H:\6TTI\C#\6TTI_Limet_Maxence_Premier_Poo\obj\Debug\net8.0\6TTI_Limet_Maxence_Premier_Poo.csproj.CoreCompileInputs.cache
+H:\6TTI\C#\6TTI_Limet_Maxence_Premier_Poo\obj\Debug\net8.0\6TTI_Limet_Maxence_Premier_Poo.dll
+H:\6TTI\C#\6TTI_Limet_Maxence_Premier_Poo\obj\Debug\net8.0\refint\6TTI_Limet_Maxence_Premier_Poo.dll
+H:\6TTI\C#\6TTI_Limet_Maxence_Premier_Poo\obj\Debug\net8.0\6TTI_Limet_Maxence_Premier_Poo.pdb
+H:\6TTI\C#\6TTI_Limet_Maxence_Premier_Poo\obj\Debug\net8.0\6TTI_Limet_Maxence_Premier_Poo.genruntimeconfig.cache
+H:\6TTI\C#\6TTI_Limet_Maxence_Premier_Poo\obj\Debug\net8.0\ref\6TTI_Limet_Maxence_Premier_Poo.dll

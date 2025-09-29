@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "6TTI_Limet_Maxence_Premier_Poo/1.0.0": {
+        "runtime": {
+          "6TTI_Limet_Maxence_Premier_Poo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "6TTI_Limet_Maxence_Premier_Poo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
