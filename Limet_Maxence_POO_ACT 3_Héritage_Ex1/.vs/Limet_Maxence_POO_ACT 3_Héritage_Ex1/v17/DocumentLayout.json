@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F167CE32-F300-445F-BCA0-4BFD7B2CA29B}|Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\limet_maxence_poo_act 3_h\u00E9ritage_ex1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F167CE32-F300-445F-BCA0-4BFD7B2CA29B}|Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F167CE32-F300-445F-BCA0-4BFD7B2CA29B}|Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\limet_maxence_poo_act 3_h\u00E9ritage_ex1\\classe\\voiture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F167CE32-F300-445F-BCA0-4BFD7B2CA29B}|Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1.csproj|solutionrelative:classe\\voiture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F167CE32-F300-445F-BCA0-4BFD7B2CA29B}|Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\limet_maxence_poo_act 3_h\u00E9ritage_ex1\\classe\\velo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F167CE32-F300-445F-BCA0-4BFD7B2CA29B}|Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1.csproj|solutionrelative:classe\\velo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F167CE32-F300-445F-BCA0-4BFD7B2CA29B}|Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\limet_maxence_poo_act 3_h\u00E9ritage_ex1\\classe\\vheicule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F167CE32-F300-445F-BCA0-4BFD7B2CA29B}|Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1.csproj|solutionrelative:classe\\vheicule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Voiture.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1\\Classe\\Voiture.cs",
+              "RelativeDocumentMoniker": "Classe\\Voiture.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1\\Classe\\Voiture.cs",
+              "RelativeToolTip": "Classe\\Voiture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T07:48:25.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Velo.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1\\Classe\\Velo.cs",
+              "RelativeDocumentMoniker": "Classe\\Velo.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1\\Classe\\Velo.cs",
+              "RelativeToolTip": "Classe\\Velo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T07:47:22.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vheicule.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1\\Classe\\Vheicule.cs",
+              "RelativeDocumentMoniker": "Classe\\Vheicule.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1\\Classe\\Vheicule.cs",
+              "RelativeToolTip": "Classe\\Vheicule.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA5wDcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T07:46:57.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_POO_ACT 3_H\u00E9ritage_Ex1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T07:45:54.976Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
