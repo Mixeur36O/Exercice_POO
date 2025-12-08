@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Cercle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A35347-5700-465F-B835-D31FCE89E904}|6TTI_Limet_Maxence_Cercle.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_cercle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A35347-5700-465F-B835-D31FCE89E904}|6TTI_Limet_Maxence_Cercle.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A35347-5700-465F-B835-D31FCE89E904}|6TTI_Limet_Maxence_Cercle.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_cercle\\classe\\cercle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A35347-5700-465F-B835-D31FCE89E904}|6TTI_Limet_Maxence_Cercle.csproj|solutionrelative:classe\\cercle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cercle.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Cercle\\Classe\\cercle.cs",
+              "RelativeDocumentMoniker": "Classe\\cercle.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Cercle\\Classe\\cercle.cs",
+              "RelativeToolTip": "Classe\\cercle.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T08:09:15.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Cercle\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Cercle\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T08:06:50.707Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

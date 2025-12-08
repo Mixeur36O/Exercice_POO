@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_NombreComplexe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38A5D10C-55EB-44C6-98D9-0E30D0850FC3}|6TTI_Limet_Maxence_NombreComplexe.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_nombrecomplexe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A5D10C-55EB-44C6-98D9-0E30D0850FC3}|6TTI_Limet_Maxence_NombreComplexe.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A5D10C-55EB-44C6-98D9-0E30D0850FC3}|6TTI_Limet_Maxence_NombreComplexe.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_nombrecomplexe\\classe\\complexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A5D10C-55EB-44C6-98D9-0E30D0850FC3}|6TTI_Limet_Maxence_NombreComplexe.csproj|solutionrelative:classe\\complexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Complexe.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_NombreComplexe\\classe\\Complexe.cs",
+              "RelativeDocumentMoniker": "classe\\Complexe.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_NombreComplexe\\classe\\Complexe.cs",
+              "RelativeToolTip": "classe\\Complexe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T09:34:01.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_NombreComplexe\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_NombreComplexe\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T09:29:43.759Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

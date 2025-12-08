@@ -1,0 +1,15 @@
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_NombreComplexe\obj\Debug\net8.0\6TTI_Limet_Maxence_NombreComplexe.GeneratedMSBuildEditorConfig.editorconfig
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_NombreComplexe\obj\Debug\net8.0\6TTI_Limet_Maxence_NombreComplexe.AssemblyInfoInputs.cache
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_NombreComplexe\obj\Debug\net8.0\6TTI_Limet_Maxence_NombreComplexe.AssemblyInfo.cs
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_NombreComplexe\obj\Debug\net8.0\6TTI_Limet_Maxence_NombreComplexe.csproj.CoreCompileInputs.cache
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_NombreComplexe\obj\Debug\net8.0\6TTI_Limet_Maxence_NombreComplexe.sourcelink.json
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_NombreComplexe\bin\Debug\net8.0\6TTI_Limet_Maxence_NombreComplexe.exe
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_NombreComplexe\bin\Debug\net8.0\6TTI_Limet_Maxence_NombreComplexe.deps.json
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_NombreComplexe\bin\Debug\net8.0\6TTI_Limet_Maxence_NombreComplexe.runtimeconfig.json
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_NombreComplexe\bin\Debug\net8.0\6TTI_Limet_Maxence_NombreComplexe.dll
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_NombreComplexe\bin\Debug\net8.0\6TTI_Limet_Maxence_NombreComplexe.pdb
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_NombreComplexe\obj\Debug\net8.0\6TTI_Limet_Maxence_NombreComplexe.dll
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_NombreComplexe\obj\Debug\net8.0\refint\6TTI_Limet_Maxence_NombreComplexe.dll
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_NombreComplexe\obj\Debug\net8.0\6TTI_Limet_Maxence_NombreComplexe.pdb
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_NombreComplexe\obj\Debug\net8.0\6TTI_Limet_Maxence_NombreComplexe.genruntimeconfig.cache
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_NombreComplexe\obj\Debug\net8.0\ref\6TTI_Limet_Maxence_NombreComplexe.dll

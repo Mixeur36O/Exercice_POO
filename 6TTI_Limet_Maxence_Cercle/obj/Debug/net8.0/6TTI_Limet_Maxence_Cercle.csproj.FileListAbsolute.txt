@@ -1,0 +1,15 @@
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Cercle\bin\Debug\net8.0\6TTI_Limet_Maxence_Cercle.exe
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Cercle\bin\Debug\net8.0\6TTI_Limet_Maxence_Cercle.deps.json
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Cercle\bin\Debug\net8.0\6TTI_Limet_Maxence_Cercle.runtimeconfig.json
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Cercle\bin\Debug\net8.0\6TTI_Limet_Maxence_Cercle.dll
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Cercle\bin\Debug\net8.0\6TTI_Limet_Maxence_Cercle.pdb
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Cercle\obj\Debug\net8.0\6TTI_Limet_Maxence_Cercle.GeneratedMSBuildEditorConfig.editorconfig
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Cercle\obj\Debug\net8.0\6TTI_Limet_Maxence_Cercle.AssemblyInfoInputs.cache
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Cercle\obj\Debug\net8.0\6TTI_Limet_Maxence_Cercle.AssemblyInfo.cs
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Cercle\obj\Debug\net8.0\6TTI_Limet_Maxence_Cercle.csproj.CoreCompileInputs.cache
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Cercle\obj\Debug\net8.0\6TTI_Limet_Maxence_Cercle.sourcelink.json
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Cercle\obj\Debug\net8.0\6TTI_Limet_Maxence_Cercle.dll
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Cercle\obj\Debug\net8.0\refint\6TTI_Limet_Maxence_Cercle.dll
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Cercle\obj\Debug\net8.0\6TTI_Limet_Maxence_Cercle.pdb
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Cercle\obj\Debug\net8.0\6TTI_Limet_Maxence_Cercle.genruntimeconfig.cache
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Cercle\obj\Debug\net8.0\ref\6TTI_Limet_Maxence_Cercle.dll
