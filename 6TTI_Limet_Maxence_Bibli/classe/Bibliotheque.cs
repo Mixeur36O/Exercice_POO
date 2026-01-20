@@ -7,39 +7,51 @@ using System.Threading.Tasks;
 
 namespace _6TTI_Limet_Maxence_Bibli.classe
 {
-    internal class Bibliotheque : Livre
+    internal class Bibliotheque
     {
         //Attributs
-        private List<string> _livres;
+        private List<Livre> _livres;
 
         //Props
 
-        public List<string> Livres
+        public List<Livre> Livres
         {
             get { return _livres; }
             set { _livres = value; }
         }
 
         //Construct
-        public Bibliotheque(List<string> livres, string titre, string auteur, string etat) : base(titre, auteur, etat)
+        public Bibliotheque()
         {
-            _livres = livres;
+            _livres = new List<Livre>();
         }
 
         //Méthodes
         public void Ajoute(Livre livre)
         {
-            List<string> _livre = [Titre,Auteur,Etat];
+             _livres.Add(livre);
         }
 
         public void supprime_livres_abimes()
         {
-
+            for (int iBiblio = 0; iBiblio < _livres.Count; iBiblio++)
+            {
+                if (_livres[iBiblio].Etat == 0)
+                {
+                    _livres.Remove(_livres[iBiblio]);
+                }
+            }
         }
 
-        public List<string> inventaire()
+        public string inventaire()
         {
-            return _livres;
+            string infos = "";
+            for (int iBiblio = 0; iBiblio < _livres.Count; iBiblio++)
+            {
+                infos += $"Il y a comme livre : {_livres[iBiblio].Description()} \n";
+            }
+            return infos;
+
         }
     }
 }

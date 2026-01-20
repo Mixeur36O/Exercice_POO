@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Bibli\\6TTI_Limet_Maxence_Bibli.csproj": {}
+    "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli\\6TTI_Limet_Maxence_Bibli.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Bibli\\6TTI_Limet_Maxence_Bibli.csproj": {
+    "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli\\6TTI_Limet_Maxence_Bibli.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Bibli\\6TTI_Limet_Maxence_Bibli.csproj",
+        "projectUniqueName": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli\\6TTI_Limet_Maxence_Bibli.csproj",
         "projectName": "6TTI_Limet_Maxence_Bibli",
-        "projectPath": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Bibli\\6TTI_Limet_Maxence_Bibli.csproj",
-        "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Bibli\\obj\\",
+        "projectPath": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli\\6TTI_Limet_Maxence_Bibli.csproj",
+        "packagesPath": "C:\\Users\\200040\\.nuget\\packages\\",
+        "outputPath": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\200040\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
