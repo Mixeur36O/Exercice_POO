@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli\\6TTI_Limet_Maxence_Bibli.csproj",
+      "projectUniqueName": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli2 - Copie\\6TTI_Limet_Maxence_Bibli.csproj",
       "projectName": "6TTI_Limet_Maxence_Bibli",
-      "projectPath": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli\\6TTI_Limet_Maxence_Bibli.csproj",
+      "projectPath": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli2 - Copie\\6TTI_Limet_Maxence_Bibli.csproj",
       "packagesPath": "C:\\Users\\200040\\.nuget\\packages\\",
-      "outputPath": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli\\obj\\",
+      "outputPath": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli2 - Copie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

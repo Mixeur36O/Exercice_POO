@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli2 - Copie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_bibli2 - copie\\classe\\abonne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|solutionrelative:classe\\abonne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_bibli2 - copie\\classe\\bibliotheque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|solutionrelative:classe\\bibliotheque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_bibli2 - copie\\classe\\emprunt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|solutionrelative:classe\\emprunt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_bibli2 - copie\\classe\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|solutionrelative:classe\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_bibli2 - copie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Abonne.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli2 - Copie\\classe\\Abonne.cs",
+              "RelativeDocumentMoniker": "classe\\Abonne.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli2 - Copie\\classe\\Abonne.cs",
+              "RelativeToolTip": "classe\\Abonne.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T07:55:43.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Emprunt.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli2 - Copie\\classe\\Emprunt.cs",
+              "RelativeDocumentMoniker": "classe\\Emprunt.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli2 - Copie\\classe\\Emprunt.cs",
+              "RelativeToolTip": "classe\\Emprunt.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T07:55:36.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bibliotheque.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli2 - Copie\\classe\\Bibliotheque.cs",
+              "RelativeDocumentMoniker": "classe\\Bibliotheque.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli2 - Copie\\classe\\Bibliotheque.cs",
+              "RelativeToolTip": "classe\\Bibliotheque.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T17:04:32.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Livre.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli2 - Copie\\classe\\Livre.cs",
+              "RelativeDocumentMoniker": "classe\\Livre.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli2 - Copie\\classe\\Livre.cs",
+              "RelativeToolTip": "classe\\Livre.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwDIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T17:04:20.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli2 - Copie\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli2 - Copie\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T17:03:00.442Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
