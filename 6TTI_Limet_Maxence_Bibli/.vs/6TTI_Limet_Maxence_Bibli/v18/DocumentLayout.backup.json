@@ -34,7 +34,8 @@
               "RelativeToolTip": "classe\\Bibliotheque.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T17:04:32.457Z"
+              "WhenOpened": "2026-01-12T17:04:32.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -46,7 +47,8 @@
               "RelativeToolTip": "classe\\Livre.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwDIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T17:04:20.571Z"
+              "WhenOpened": "2026-01-12T17:04:20.571Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -56,7 +58,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T17:03:00.442Z",
               "EditorCaption": ""

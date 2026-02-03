@@ -1,6 +1,7 @@
 ﻿using _6TTI_Limet_Maxence_Bibli.classe;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace _6TTI_Limet_Maxence_Bibli
 {
@@ -9,6 +10,8 @@ namespace _6TTI_Limet_Maxence_Bibli
         static void Main(string[] args)
         {
             //Variables
+            Abonne emprunteur;
+
             string recommencer = "";
             Bibliotheque biblio = new Bibliotheque();
             Livre livre = new Livre("","",0);
@@ -23,8 +26,9 @@ namespace _6TTI_Limet_Maxence_Bibli
                                   "D : Dégrader un livre \n" + 
                                   "A : Abonner vous \n" +
                                   "I : Inventaire \n" +
-                                  "E : Emprunter un Livre" +
-                                  "S : Supprimer les livre trop abîmer");
+                                  "E : Emprunter un Livre \n" +
+                                  "S : Supprimer les livre trop abîmer \n" +
+                                  "L : Pour afficher la liste des livre empruntés");
                 ConsoleKeyInfo info = Console.ReadKey(true);
                 if (info.Key == ConsoleKey.C)
                 {
@@ -67,20 +71,36 @@ namespace _6TTI_Limet_Maxence_Bibli
                 if (info.Key == ConsoleKey.E)
                 {
                     string titre = "";
-                    Console.WriteLine("Choisisser un livre à emprunter")
+                    Console.WriteLine("Choisisser un livre à emprunter");
                     titre = Console.ReadLine();
-                    if (TrouveLivre(titre, biblio, out livre))
-                    biblio.AjouteEmpruntLivre(livre, );
+                    if (TrouveLivre(titre, biblio.Livres, out livre))
+                    {
+                        string nom = "";
+                        Console.WriteLine("Donner-moi votre nom d'abonne");
+                        nom = Console.ReadLine();
+                        if (TrouveEmprunteur(nom, biblio.Abonnes, out emprunteur))
+                        {
+                            biblio.AjouteEmpruntLivre(livre, emprunteur, DateTime.Today);
+                        }
+                    }
                 }
 
                 if (info.Key == ConsoleKey.S)
                 {
+                    biblio.supprime_livres_abimes();
+                    Console.WriteLine("La suppression des livres abîmés à bien été réussis");
+                }
 
+                if (info.Key == ConsoleKey.L)
+                {
+                    Console.WriteLine(biblio.ListeLivresEmprunts());
                 }
 
                 Console.WriteLine("Voulez-vous réemprunter un livre");
                 recommencer = Console.ReadLine();
             } while (recommencer != "non");
+
+
             
         }
         static bool TrouveLivre(string titre, List<Livre> biblio, out Livre livre)
@@ -94,8 +114,32 @@ namespace _6TTI_Limet_Maxence_Bibli
                     livre = item;
                     trouve = true;
                 }
+                else
+                {
+                    Console.WriteLine("Vos livre ne se trouve pas en bibliothèque");
+                }
             }
             return trouve;
+        }
+
+        static bool TrouveEmprunteur(string nom, List<Abonne> biblio, out Abonne emprunteur)
+        {
+            bool trouve = false;
+            emprunteur = null;
+            foreach(Abonne item in biblio)
+            {
+                if (item.Nom == nom)
+                {
+                    emprunteur = item;
+                    trouve = true;
+                }
+                else
+                {
+                    Console.WriteLine("Désoler vous n'êtes pas abonner");
+                }
+            }
+            return trouve;
+            
         }
     }
 }

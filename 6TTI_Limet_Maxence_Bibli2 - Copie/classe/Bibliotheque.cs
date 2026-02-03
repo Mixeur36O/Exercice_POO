@@ -72,7 +72,7 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
 
         public void AjouteEmpruntLivre(Livre livre, Abonne emprunteur, DateTime dateEmprunt)
         {
-            _emprunts.Add(new Emprunt(livre, emprunteur, dateEmprunt));
+            _emprunts.Add(new Emprunt(livre, dateEmprunt, emprunteur));
         }
 
         public string NotifieRetourLivre(Emprunt emprunt, DateTime dateRetour)
@@ -84,7 +84,12 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
 
         public string ListeLivresEmprunts()
         {
-
+            string infos = "";
+            for (int iBiblio = 0; iBiblio < _abonnes.Count; iBiblio++)
+            {
+                infos += $"Les livres empruntr sont : {_livres[iBiblio].Description()} par {_abonnes[iBiblio].infos()} \n";
+            }
+            return infos;
         }
     }
 }
