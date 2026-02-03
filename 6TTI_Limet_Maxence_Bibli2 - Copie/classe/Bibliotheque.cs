@@ -35,6 +35,8 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         public Bibliotheque()
         {
             _livres = new List<Livre>();
+            _abonnes = new List<Abonne>();
+            _emprunts = new List<Emprunt>();
         }
 
         //Méthodes

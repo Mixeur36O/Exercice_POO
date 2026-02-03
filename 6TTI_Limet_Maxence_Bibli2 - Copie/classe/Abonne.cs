@@ -39,7 +39,7 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
 
         public string infos()
         {
-            string info = $"L'abboner s'appelle{_nom} {_prenom}. Son adresse mail est {_email}";
+            string info = $"L'abonner {_nom} {_prenom}. Son adresse mail est {_email}";
             return info;
         }
     }
