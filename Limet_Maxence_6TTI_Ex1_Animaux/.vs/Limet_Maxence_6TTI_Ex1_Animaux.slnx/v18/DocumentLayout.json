@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_6TTI_Ex1_Animaux\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C759B070-E841-438A-8735-49119824F154}|Limet_Maxence_6TTI_Ex1_Animaux.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\limet_maxence_6tti_ex1_animaux\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759B070-E841-438A-8735-49119824F154}|Limet_Maxence_6TTI_Ex1_Animaux.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759B070-E841-438A-8735-49119824F154}|Limet_Maxence_6TTI_Ex1_Animaux.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\limet_maxence_6tti_ex1_animaux\\classe\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759B070-E841-438A-8735-49119824F154}|Limet_Maxence_6TTI_Ex1_Animaux.csproj|solutionrelative:classe\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759B070-E841-438A-8735-49119824F154}|Limet_Maxence_6TTI_Ex1_Animaux.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\limet_maxence_6tti_ex1_animaux\\classe\\lapin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759B070-E841-438A-8735-49119824F154}|Limet_Maxence_6TTI_Ex1_Animaux.csproj|solutionrelative:classe\\lapin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759B070-E841-438A-8735-49119824F154}|Limet_Maxence_6TTI_Ex1_Animaux.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\limet_maxence_6tti_ex1_animaux\\classe\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759B070-E841-438A-8735-49119824F154}|Limet_Maxence_6TTI_Ex1_Animaux.csproj|solutionrelative:classe\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759B070-E841-438A-8735-49119824F154}|Limet_Maxence_6TTI_Ex1_Animaux.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\limet_maxence_6tti_ex1_animaux\\classe\\chien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759B070-E841-438A-8735-49119824F154}|Limet_Maxence_6TTI_Ex1_Animaux.csproj|solutionrelative:classe\\chien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lapin.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_6TTI_Ex1_Animaux\\Classe\\Lapin.cs",
+              "RelativeDocumentMoniker": "Classe\\Lapin.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_6TTI_Ex1_Animaux\\Classe\\Lapin.cs",
+              "RelativeToolTip": "Classe\\Lapin.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCUAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T08:38:55.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_6TTI_Ex1_Animaux\\Classe\\Chat.cs",
+              "RelativeDocumentMoniker": "Classe\\Chat.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_6TTI_Ex1_Animaux\\Classe\\Chat.cs",
+              "RelativeToolTip": "Classe\\Chat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T08:37:22.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Chien.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_6TTI_Ex1_Animaux\\Classe\\Chien.cs",
+              "RelativeDocumentMoniker": "Classe\\Chien.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_6TTI_Ex1_Animaux\\Classe\\Chien.cs",
+              "RelativeToolTip": "Classe\\Chien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T08:32:41.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_6TTI_Ex1_Animaux\\Classe\\Animal.cs",
+              "RelativeDocumentMoniker": "Classe\\Animal.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_6TTI_Ex1_Animaux\\Classe\\Animal.cs",
+              "RelativeToolTip": "Classe\\Animal.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T08:22:43.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_6TTI_Ex1_Animaux\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_6TTI_Ex1_Animaux\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvw4AAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T08:21:47.688Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

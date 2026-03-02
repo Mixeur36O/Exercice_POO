@@ -1,0 +1,15 @@
+H:\6TTI\C#\POO\Exercice_POO\Limet_Maxence_6TTI_Ex1_Animaux\bin\Debug\net8.0\Limet_Maxence_6TTI_Ex1_Animaux.exe
+H:\6TTI\C#\POO\Exercice_POO\Limet_Maxence_6TTI_Ex1_Animaux\bin\Debug\net8.0\Limet_Maxence_6TTI_Ex1_Animaux.deps.json
+H:\6TTI\C#\POO\Exercice_POO\Limet_Maxence_6TTI_Ex1_Animaux\bin\Debug\net8.0\Limet_Maxence_6TTI_Ex1_Animaux.runtimeconfig.json
+H:\6TTI\C#\POO\Exercice_POO\Limet_Maxence_6TTI_Ex1_Animaux\bin\Debug\net8.0\Limet_Maxence_6TTI_Ex1_Animaux.dll
+H:\6TTI\C#\POO\Exercice_POO\Limet_Maxence_6TTI_Ex1_Animaux\bin\Debug\net8.0\Limet_Maxence_6TTI_Ex1_Animaux.pdb
+H:\6TTI\C#\POO\Exercice_POO\Limet_Maxence_6TTI_Ex1_Animaux\obj\Debug\net8.0\Limet_Maxence_6TTI_Ex1_Animaux.GeneratedMSBuildEditorConfig.editorconfig
+H:\6TTI\C#\POO\Exercice_POO\Limet_Maxence_6TTI_Ex1_Animaux\obj\Debug\net8.0\Limet_Maxence_6TTI_Ex1_Animaux.AssemblyInfoInputs.cache
+H:\6TTI\C#\POO\Exercice_POO\Limet_Maxence_6TTI_Ex1_Animaux\obj\Debug\net8.0\Limet_Maxence_6TTI_Ex1_Animaux.AssemblyInfo.cs
+H:\6TTI\C#\POO\Exercice_POO\Limet_Maxence_6TTI_Ex1_Animaux\obj\Debug\net8.0\Limet_Maxence_6TTI_Ex1_Animaux.csproj.CoreCompileInputs.cache
+H:\6TTI\C#\POO\Exercice_POO\Limet_Maxence_6TTI_Ex1_Animaux\obj\Debug\net8.0\Limet_Maxence_6TTI_Ex1_Animaux.sourcelink.json
+H:\6TTI\C#\POO\Exercice_POO\Limet_Maxence_6TTI_Ex1_Animaux\obj\Debug\net8.0\Limet_Maxence_6TTI_Ex1_Animaux.dll
+H:\6TTI\C#\POO\Exercice_POO\Limet_Maxence_6TTI_Ex1_Animaux\obj\Debug\net8.0\refint\Limet_Maxence_6TTI_Ex1_Animaux.dll
+H:\6TTI\C#\POO\Exercice_POO\Limet_Maxence_6TTI_Ex1_Animaux\obj\Debug\net8.0\Limet_Maxence_6TTI_Ex1_Animaux.pdb
+H:\6TTI\C#\POO\Exercice_POO\Limet_Maxence_6TTI_Ex1_Animaux\obj\Debug\net8.0\Limet_Maxence_6TTI_Ex1_Animaux.genruntimeconfig.cache
+H:\6TTI\C#\POO\Exercice_POO\Limet_Maxence_6TTI_Ex1_Animaux\obj\Debug\net8.0\ref\Limet_Maxence_6TTI_Ex1_Animaux.dll
