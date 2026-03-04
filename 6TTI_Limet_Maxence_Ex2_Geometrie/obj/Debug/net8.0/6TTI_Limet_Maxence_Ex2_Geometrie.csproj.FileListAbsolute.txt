@@ -1,0 +1,15 @@
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex2_Geometrie\bin\Debug\net8.0\6TTI_Limet_Maxence_Ex2_Geometrie.exe
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex2_Geometrie\bin\Debug\net8.0\6TTI_Limet_Maxence_Ex2_Geometrie.deps.json
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex2_Geometrie\bin\Debug\net8.0\6TTI_Limet_Maxence_Ex2_Geometrie.runtimeconfig.json
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex2_Geometrie\bin\Debug\net8.0\6TTI_Limet_Maxence_Ex2_Geometrie.dll
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex2_Geometrie\bin\Debug\net8.0\6TTI_Limet_Maxence_Ex2_Geometrie.pdb
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex2_Geometrie\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex2_Geometrie.GeneratedMSBuildEditorConfig.editorconfig
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex2_Geometrie\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex2_Geometrie.AssemblyInfoInputs.cache
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex2_Geometrie\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex2_Geometrie.AssemblyInfo.cs
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex2_Geometrie\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex2_Geometrie.csproj.CoreCompileInputs.cache
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex2_Geometrie\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex2_Geometrie.sourcelink.json
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex2_Geometrie\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex2_Geometrie.dll
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex2_Geometrie\obj\Debug\net8.0\refint\6TTI_Limet_Maxence_Ex2_Geometrie.dll
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex2_Geometrie\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex2_Geometrie.pdb
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex2_Geometrie\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex2_Geometrie.genruntimeconfig.cache
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex2_Geometrie\obj\Debug\net8.0\ref\6TTI_Limet_Maxence_Ex2_Geometrie.dll
