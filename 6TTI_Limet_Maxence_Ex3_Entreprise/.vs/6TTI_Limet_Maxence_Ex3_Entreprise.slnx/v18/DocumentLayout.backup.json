@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7713F97D-E574-45F5-8727-3E0E88CA4BD9}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_ex3_entreprise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7713F97D-E574-45F5-8727-3E0E88CA4BD9}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T08:54:03.368Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
