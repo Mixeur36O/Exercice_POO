@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7713F97D-E574-45F5-8727-3E0E88CA4BD9}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_ex3_entreprise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7713F97D-E574-45F5-8727-3E0E88CA4BD9}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E2C10D5-3184-1381-32FE-3399AA4C87F5}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_ex3_entreprise\\classe\\ouvrier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2C10D5-3184-1381-32FE-3399AA4C87F5}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|solutionrelative:classe\\ouvrier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2C10D5-3184-1381-32FE-3399AA4C87F5}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_ex3_entreprise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2C10D5-3184-1381-32FE-3399AA4C87F5}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2C10D5-3184-1381-32FE-3399AA4C87F5}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_ex3_entreprise\\classe\\cadre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2C10D5-3184-1381-32FE-3399AA4C87F5}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|solutionrelative:classe\\cadre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2C10D5-3184-1381-32FE-3399AA4C87F5}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_ex3_entreprise\\classe\\employe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2C10D5-3184-1381-32FE-3399AA4C87F5}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|solutionrelative:classe\\employe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2C10D5-3184-1381-32FE-3399AA4C87F5}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_ex3_entreprise\\classe\\tarification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2C10D5-3184-1381-32FE-3399AA4C87F5}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|solutionrelative:classe\\tarification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2C10D5-3184-1381-32FE-3399AA4C87F5}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_ex3_entreprise\\classe\\directeur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2C10D5-3184-1381-32FE-3399AA4C87F5}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|solutionrelative:classe\\directeur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2C10D5-3184-1381-32FE-3399AA4C87F5}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_ex3_entreprise\\classe\\employe.cs~rf23e96863.tmp||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8E2C10D5-3184-1381-32FE-3399AA4C87F5}|6TTI_Limet_Maxence_Ex3_Entreprise.csproj|solutionrelative:classe\\employe.cs~rf23e96863.tmp||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +43,96 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Ouvrier.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\classe\\Ouvrier.cs",
+              "RelativeDocumentMoniker": "classe\\Ouvrier.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\classe\\Ouvrier.cs",
+              "RelativeToolTip": "classe\\Ouvrier.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T08:59:07.886Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employe.cs~RF23e96863.TMP",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\classe\\Employe.cs~RF23e96863.TMP",
+              "RelativeDocumentMoniker": "classe\\Employe.cs~RF23e96863.TMP",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\classe\\Employe.cs~RF23e96863.TMP",
+              "RelativeToolTip": "classe\\Employe.cs~RF23e96863.TMP",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-09T08:48:33.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tarification.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\classe\\Tarification.cs",
+              "RelativeDocumentMoniker": "classe\\Tarification.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\classe\\Tarification.cs",
+              "RelativeToolTip": "classe\\Tarification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T08:41:54.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cadre.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\classe\\Cadre.cs",
+              "RelativeDocumentMoniker": "classe\\Cadre.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\classe\\Cadre.cs",
+              "RelativeToolTip": "classe\\Cadre.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wCoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T08:57:34.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Directeur.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\classe\\Directeur.cs",
+              "RelativeDocumentMoniker": "classe\\Directeur.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\classe\\Directeur.cs",
+              "RelativeToolTip": "classe\\Directeur.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T08:57:42.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-04T08:54:03.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employe.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\classe\\Employe.cs",
+              "RelativeDocumentMoniker": "classe\\Employe.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Ex3_Entreprise\\classe\\Employe.cs",
+              "RelativeToolTip": "classe\\Employe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T08:57:27.3Z",
               "EditorCaption": ""
             }
           ]

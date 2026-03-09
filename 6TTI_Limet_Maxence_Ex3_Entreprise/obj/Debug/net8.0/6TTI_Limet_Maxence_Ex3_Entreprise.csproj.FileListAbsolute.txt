@@ -1,0 +1,15 @@
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex3_Entreprise\bin\Debug\net8.0\6TTI_Limet_Maxence_Ex3_Entreprise.exe
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex3_Entreprise\bin\Debug\net8.0\6TTI_Limet_Maxence_Ex3_Entreprise.deps.json
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex3_Entreprise\bin\Debug\net8.0\6TTI_Limet_Maxence_Ex3_Entreprise.runtimeconfig.json
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex3_Entreprise\bin\Debug\net8.0\6TTI_Limet_Maxence_Ex3_Entreprise.dll
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex3_Entreprise\bin\Debug\net8.0\6TTI_Limet_Maxence_Ex3_Entreprise.pdb
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex3_Entreprise\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex3_Entreprise.GeneratedMSBuildEditorConfig.editorconfig
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex3_Entreprise\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex3_Entreprise.AssemblyInfoInputs.cache
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex3_Entreprise\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex3_Entreprise.AssemblyInfo.cs
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex3_Entreprise\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex3_Entreprise.csproj.CoreCompileInputs.cache
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex3_Entreprise\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex3_Entreprise.sourcelink.json
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex3_Entreprise\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex3_Entreprise.dll
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex3_Entreprise\obj\Debug\net8.0\refint\6TTI_Limet_Maxence_Ex3_Entreprise.dll
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex3_Entreprise\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex3_Entreprise.pdb
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex3_Entreprise\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex3_Entreprise.genruntimeconfig.cache
+H:\6TTI\C#\POO\Exercice_POO\6TTI_Limet_Maxence_Ex3_Entreprise\obj\Debug\net8.0\ref\6TTI_Limet_Maxence_Ex3_Entreprise.dll

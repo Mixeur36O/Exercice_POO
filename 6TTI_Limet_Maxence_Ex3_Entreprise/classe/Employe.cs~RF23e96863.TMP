@@ -45,12 +45,13 @@ namespace _6TTI_Limet_Maxence_Ex3_Entreprise.classe
 
 
         //Construct
-        public Employe(string matricule, string nom, DateTime dateN, string prenom)
+        public Employe(string matricule, string nom, DateTime dateN, string prenom, double salaire)
         {
             _nom = nom;
             _dateN = dateN;
             _prenom = prenom;
             _matricule = matricule;
+            _salaire = salaire;
         }
 
         //Méthodes
