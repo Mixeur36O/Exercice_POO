@@ -1,0 +1,15 @@
+C:\Users\Max\Downloads\Ecole\6TTI\Informatique\C#\Exercice_POO\6TTI_Limet_Maxence_Ex4_Herit_Vehi\bin\Debug\net8.0\6TTI_Limet_Maxence_Ex4_Herit_Vehi.exe
+C:\Users\Max\Downloads\Ecole\6TTI\Informatique\C#\Exercice_POO\6TTI_Limet_Maxence_Ex4_Herit_Vehi\bin\Debug\net8.0\6TTI_Limet_Maxence_Ex4_Herit_Vehi.deps.json
+C:\Users\Max\Downloads\Ecole\6TTI\Informatique\C#\Exercice_POO\6TTI_Limet_Maxence_Ex4_Herit_Vehi\bin\Debug\net8.0\6TTI_Limet_Maxence_Ex4_Herit_Vehi.runtimeconfig.json
+C:\Users\Max\Downloads\Ecole\6TTI\Informatique\C#\Exercice_POO\6TTI_Limet_Maxence_Ex4_Herit_Vehi\bin\Debug\net8.0\6TTI_Limet_Maxence_Ex4_Herit_Vehi.dll
+C:\Users\Max\Downloads\Ecole\6TTI\Informatique\C#\Exercice_POO\6TTI_Limet_Maxence_Ex4_Herit_Vehi\bin\Debug\net8.0\6TTI_Limet_Maxence_Ex4_Herit_Vehi.pdb
+C:\Users\Max\Downloads\Ecole\6TTI\Informatique\C#\Exercice_POO\6TTI_Limet_Maxence_Ex4_Herit_Vehi\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex4_Herit_Vehi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Max\Downloads\Ecole\6TTI\Informatique\C#\Exercice_POO\6TTI_Limet_Maxence_Ex4_Herit_Vehi\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex4_Herit_Vehi.AssemblyInfoInputs.cache
+C:\Users\Max\Downloads\Ecole\6TTI\Informatique\C#\Exercice_POO\6TTI_Limet_Maxence_Ex4_Herit_Vehi\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex4_Herit_Vehi.AssemblyInfo.cs
+C:\Users\Max\Downloads\Ecole\6TTI\Informatique\C#\Exercice_POO\6TTI_Limet_Maxence_Ex4_Herit_Vehi\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex4_Herit_Vehi.csproj.CoreCompileInputs.cache
+C:\Users\Max\Downloads\Ecole\6TTI\Informatique\C#\Exercice_POO\6TTI_Limet_Maxence_Ex4_Herit_Vehi\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex4_Herit_Vehi.sourcelink.json
+C:\Users\Max\Downloads\Ecole\6TTI\Informatique\C#\Exercice_POO\6TTI_Limet_Maxence_Ex4_Herit_Vehi\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex4_Herit_Vehi.dll
+C:\Users\Max\Downloads\Ecole\6TTI\Informatique\C#\Exercice_POO\6TTI_Limet_Maxence_Ex4_Herit_Vehi\obj\Debug\net8.0\refint\6TTI_Limet_Maxence_Ex4_Herit_Vehi.dll
+C:\Users\Max\Downloads\Ecole\6TTI\Informatique\C#\Exercice_POO\6TTI_Limet_Maxence_Ex4_Herit_Vehi\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex4_Herit_Vehi.pdb
+C:\Users\Max\Downloads\Ecole\6TTI\Informatique\C#\Exercice_POO\6TTI_Limet_Maxence_Ex4_Herit_Vehi\obj\Debug\net8.0\6TTI_Limet_Maxence_Ex4_Herit_Vehi.genruntimeconfig.cache
+C:\Users\Max\Downloads\Ecole\6TTI\Informatique\C#\Exercice_POO\6TTI_Limet_Maxence_Ex4_Herit_Vehi\obj\Debug\net8.0\ref\6TTI_Limet_Maxence_Ex4_Herit_Vehi.dll

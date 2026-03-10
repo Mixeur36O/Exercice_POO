@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Ex4_Herit_Vehi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC9929A-1AFA-43AD-85E4-62D9416710AE}|6TTI_Limet_Maxence_Ex4_Herit_Vehi.csproj|c:\\users\\max\\downloads\\ecole\\6tti\\informatique\\c#\\exercice_poo\\6tti_limet_maxence_ex4_herit_vehi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC9929A-1AFA-43AD-85E4-62D9416710AE}|6TTI_Limet_Maxence_Ex4_Herit_Vehi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC9929A-1AFA-43AD-85E4-62D9416710AE}|6TTI_Limet_Maxence_Ex4_Herit_Vehi.csproj|c:\\users\\max\\downloads\\ecole\\6tti\\informatique\\c#\\exercice_poo\\6tti_limet_maxence_ex4_herit_vehi\\classe\\vehicule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC9929A-1AFA-43AD-85E4-62D9416710AE}|6TTI_Limet_Maxence_Ex4_Herit_Vehi.csproj|solutionrelative:classe\\vehicule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC9929A-1AFA-43AD-85E4-62D9416710AE}|6TTI_Limet_Maxence_Ex4_Herit_Vehi.csproj|c:\\users\\max\\downloads\\ecole\\6tti\\informatique\\c#\\exercice_poo\\6tti_limet_maxence_ex4_herit_vehi\\classe\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC9929A-1AFA-43AD-85E4-62D9416710AE}|6TTI_Limet_Maxence_Ex4_Herit_Vehi.csproj|solutionrelative:classe\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC9929A-1AFA-43AD-85E4-62D9416710AE}|6TTI_Limet_Maxence_Ex4_Herit_Vehi.csproj|c:\\users\\max\\downloads\\ecole\\6tti\\informatique\\c#\\exercice_poo\\6tti_limet_maxence_ex4_herit_vehi\\classe\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC9929A-1AFA-43AD-85E4-62D9416710AE}|6TTI_Limet_Maxence_Ex4_Herit_Vehi.csproj|solutionrelative:classe\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC9929A-1AFA-43AD-85E4-62D9416710AE}|6TTI_Limet_Maxence_Ex4_Herit_Vehi.csproj|c:\\users\\max\\downloads\\ecole\\6tti\\informatique\\c#\\exercice_poo\\6tti_limet_maxence_ex4_herit_vehi\\classe\\roadvehicule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC9929A-1AFA-43AD-85E4-62D9416710AE}|6TTI_Limet_Maxence_Ex4_Herit_Vehi.csproj|solutionrelative:classe\\roadvehicule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC9929A-1AFA-43AD-85E4-62D9416710AE}|6TTI_Limet_Maxence_Ex4_Herit_Vehi.csproj|c:\\users\\max\\downloads\\ecole\\6tti\\informatique\\c#\\exercice_poo\\6tti_limet_maxence_ex4_herit_vehi\\classe\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC9929A-1AFA-43AD-85E4-62D9416710AE}|6TTI_Limet_Maxence_Ex4_Herit_Vehi.csproj|solutionrelative:classe\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC9929A-1AFA-43AD-85E4-62D9416710AE}|6TTI_Limet_Maxence_Ex4_Herit_Vehi.csproj|c:\\users\\max\\downloads\\ecole\\6tti\\informatique\\c#\\exercice_poo\\6tti_limet_maxence_ex4_herit_vehi\\classe\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC9929A-1AFA-43AD-85E4-62D9416710AE}|6TTI_Limet_Maxence_Ex4_Herit_Vehi.csproj|solutionrelative:classe\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Ex4_Herit_Vehi\\classe\\Truck.cs",
+              "RelativeDocumentMoniker": "classe\\Truck.cs",
+              "ToolTip": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Ex4_Herit_Vehi\\classe\\Truck.cs",
+              "RelativeToolTip": "classe\\Truck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T18:47:13.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Ex4_Herit_Vehi\\classe\\Car.cs",
+              "RelativeDocumentMoniker": "classe\\Car.cs",
+              "ToolTip": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Ex4_Herit_Vehi\\classe\\Car.cs",
+              "RelativeToolTip": "classe\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T18:47:06.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoadVehicule.cs",
+              "DocumentMoniker": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Ex4_Herit_Vehi\\classe\\RoadVehicule.cs",
+              "RelativeDocumentMoniker": "classe\\RoadVehicule.cs",
+              "ToolTip": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Ex4_Herit_Vehi\\classe\\RoadVehicule.cs",
+              "RelativeToolTip": "classe\\RoadVehicule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T18:46:58.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Boat.cs",
+              "DocumentMoniker": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Ex4_Herit_Vehi\\classe\\Boat.cs",
+              "RelativeDocumentMoniker": "classe\\Boat.cs",
+              "ToolTip": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Ex4_Herit_Vehi\\classe\\Boat.cs",
+              "RelativeToolTip": "classe\\Boat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T18:46:43.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Plane.cs",
+              "DocumentMoniker": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Ex4_Herit_Vehi\\classe\\Plane.cs",
+              "RelativeDocumentMoniker": "classe\\Plane.cs",
+              "ToolTip": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Ex4_Herit_Vehi\\classe\\Plane.cs",
+              "RelativeToolTip": "classe\\Plane.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T18:46:35.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vehicule.cs",
+              "DocumentMoniker": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Ex4_Herit_Vehi\\classe\\Vehicule.cs",
+              "RelativeDocumentMoniker": "classe\\Vehicule.cs",
+              "ToolTip": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Ex4_Herit_Vehi\\classe\\Vehicule.cs",
+              "RelativeToolTip": "classe\\Vehicule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T18:46:27.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Ex4_Herit_Vehi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Max\\Downloads\\Ecole\\6TTI\\Informatique\\C#\\Exercice_POO\\6TTI_Limet_Maxence_Ex4_Herit_Vehi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T18:45:59.917Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
