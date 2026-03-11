@@ -9,6 +9,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _6TTI_Limet_Maxence_Bibli.classe;
 
 
 namespace _6TTI_Limet_Maxence_Bibli
@@ -17,7 +18,7 @@ namespace _6TTI_Limet_Maxence_Bibli
     {
         public string DefinirCheminBD() // détermine la chaîne de connexion
         {
-            return "server=localhost;database=biblio;port=3306;User Id=Maxence;password=root";
+            return "server=10.10.51.98;database=biblio;port=3306;User Id=Maxence;password=root";
         }
 
         public bool ChercheContenuTab(string table, out DataSet contenutab)
@@ -48,7 +49,7 @@ namespace _6TTI_Limet_Maxence_Bibli
             return ok;
         }
 
-        public bool AjouteAbonne(string[] donnees)
+        public bool AjouteAbonne(Abonne abo)
         {
             bool ok = false;
             MySqlConnection maConnexion = new MySqlConnection(DefinirCheminBD());
@@ -56,14 +57,15 @@ namespace _6TTI_Limet_Maxence_Bibli
             try
             {
                 maConnexion.Open();
-                query = "INSERT INTO abonnes (nom, prenom, email, motDePasse) values (@nom, @prenom, @email, @motDePasse);";
+                query = "INSERT INTO abonnes (nom, prenom, email, login, motDePasse) values (@nom, @prenom, @email, @login, @motDePasse);";
 
                 MySqlCommand insertCommand = new MySqlCommand(query, maConnexion);
 
-                insertCommand.Parameters.AddWithValue("@nom", donnees[0]);
-                insertCommand.Parameters.AddWithValue("@prenom", donnees[1]);
-                insertCommand.Parameters.AddWithValue("@email", donnees[2]);
-                insertCommand.Parameters.AddWithValue("@motDePasse", donnees[3]);
+                insertCommand.Parameters.AddWithValue("@nom", abo.Nom);
+                insertCommand.Parameters.AddWithValue("@prenom", abo.Prenom);
+                insertCommand.Parameters.AddWithValue("@email", abo.Email);
+                insertCommand.Parameters.AddWithValue("@login", abo.Login);
+                insertCommand.Parameters.AddWithValue("@motDePasse", abo.Password);
 
                 // Ajout des données à la source de données
                 if (insertCommand.ExecuteNonQuery() > 0)
@@ -80,7 +82,7 @@ namespace _6TTI_Limet_Maxence_Bibli
             return ok;
         }
 
-        public bool AjouteLivre(string[] donneesL)
+        public bool AjouteLivre(Livre livre)
         {
             bool ok = false;
             MySqlConnection maConnexion = new MySqlConnection(DefinirCheminBD());
@@ -88,15 +90,46 @@ namespace _6TTI_Limet_Maxence_Bibli
             try
             {
                 maConnexion.Open();
-                query = "INSERT INTO abonnes (nom, prenom, titre, annee_parution, etat) values (@nom, @prenom, @titre, @annee_parution, @etat);";
+                query = "INSERT INTO livres (nom, prenom, titre, annee_parution, etat) values (@nom, @prenom, @titre, @annee_parution, @etat);";
 
                 MySqlCommand insertCommand = new MySqlCommand(query, maConnexion);
 
-                insertCommand.Parameters.AddWithValue("@nom", donneesL[0]);
-                insertCommand.Parameters.AddWithValue("@prenom", donneesL[1]);
-                insertCommand.Parameters.AddWithValue("@titre", donneesL[2]);
-                insertCommand.Parameters.AddWithValue("@annee_parution", donneesL[3]);
-                insertCommand.Parameters.AddWithValue("@etat", donneesL[3]);
+                insertCommand.Parameters.AddWithValue("@nom", livre.Nom);
+                insertCommand.Parameters.AddWithValue("@prenom", livre.Prenom);
+                insertCommand.Parameters.AddWithValue("@titre", livre.Titre);
+                insertCommand.Parameters.AddWithValue("@annee_parution", livre.AnneeP);
+                insertCommand.Parameters.AddWithValue("@etat", livre.Etat);
+
+                // Ajout des données à la source de données
+                if (insertCommand.ExecuteNonQuery() > 0)
+                {
+                    ok = true;
+                }
+                maConnexion.Close();
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                throw;
+            }
+            return ok;
+        }
+        public bool AjouteEmprunt(string[] donneesL)
+        {
+            bool ok = false;
+            MySqlConnection maConnexion = new MySqlConnection(DefinirCheminBD());
+            string query = "";
+            try
+            {
+                maConnexion.Open();
+                query = "INSERT INTO abonnes (idLivre, idAbonne, dateEmprunt, dateRetour) values (@idLivre, @idAbonne, @dateEmprunt, @dateRetour);";
+
+                MySqlCommand insertCommand = new MySqlCommand(query, maConnexion);
+
+                insertCommand.Parameters.AddWithValue("@idLivre", donneesL[0]);
+                insertCommand.Parameters.AddWithValue("@idAbonne", donneesL[1]);
+                insertCommand.Parameters.AddWithValue("@dateEmprunt", donneesL[2]);
+                insertCommand.Parameters.AddWithValue("@dateRetour", donneesL[3]);
 
                 // Ajout des données à la source de données
                 if (insertCommand.ExecuteNonQuery() > 0)

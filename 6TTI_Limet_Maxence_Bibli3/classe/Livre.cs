@@ -10,7 +10,9 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
     {
         //Attributs
         private string _titre;
-        private string _auteur;
+        private string _nom;
+        private string _prenom;
+        private double _anneeP;
         private int _etat;
 
         //Props
@@ -20,11 +22,18 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
             get { return _titre; }
         }
 
-        public string Auteur
+        public string Prenom
         {
-            get { return _auteur; }
+            get { return _prenom; }
         }
-
+        public string Nom
+        {
+            get { return _nom; }
+        }
+        public double AnneeP
+        {
+            get { return _anneeP; }
+        }
         public int Etat
         {
             get { return _etat; }
@@ -32,10 +41,12 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         }
 
         //Construct
-        public Livre(string titre, string auteur, int etat)
+        public Livre(string nom, string prenom, string titre, double anneeP, int etat)
         {
+            _nom = nom;
+            _prenom = prenom;
             _titre = titre;
-            _auteur = auteur;
+            _anneeP = anneeP;
             _etat = etat;
         }
 
@@ -48,7 +59,7 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         public string Description()
         {
             string infos;
-            infos = $"{_titre}, écris par {_auteur}. \n Il est dans l'état {_etat}";
+            infos = $"{_titre}, écris par {_nom} {_prenom} en {AnneeP}. \n Il est dans l'état {_etat}";
             return infos;
         }
     }

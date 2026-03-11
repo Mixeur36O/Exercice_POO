@@ -48,7 +48,8 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
 
         public void Ajoute(Livre livre)
         {
-             _livres.Add(livre);
+            _livres.Add(livre);
+            donnee.AjouteLivre(livre);
         }
 
         public void supprime_livres_abimes()
@@ -73,11 +74,11 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
 
         }
 
-        public void CreeAbonne(string nom, string prenom, string email)
+        public void CreeAbonne(string nom, string prenom, string email, string login, string mdp)
         {
-            string[] donnees = new string[0];
-            _abonnes.Add(new Abonne(nom, prenom, email));
-            donnee.AjouteAbonne(donnees);
+            _abonnes.Add(new Abonne(nom, prenom, email, login, mdp));
+            Abonne abo = new Abonne(nom, prenom, email, login, mdp);
+            donnee.AjouteAbonne(abo);
         }
 
         public void AjouteEmpruntLivre(Livre livre, Abonne emprunteur, DateTime dateEmprunt)

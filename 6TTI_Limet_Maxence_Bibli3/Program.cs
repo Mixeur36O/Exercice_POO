@@ -1,4 +1,5 @@
 ﻿using _6TTI_Limet_Maxence_Bibli.classe;
+using Google.Protobuf.WellKnownTypes;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -14,7 +15,7 @@ namespace _6TTI_Limet_Maxence_Bibli
 
             string recommencer = "";
             Bibliotheque biblio = new Bibliotheque();
-            Livre livre = new Livre("","",0);
+            Livre livre = new Livre("","","",0,0);
 
             string choixC = "";
             do
@@ -30,17 +31,22 @@ namespace _6TTI_Limet_Maxence_Bibli
                 ConsoleKeyInfo info = Console.ReadKey(true);
                 if (info.Key == ConsoleKey.C)
                 {
-                    string titre = "";
-                    string auteur = "";
+                    string titreU = "";
+                    string nomU = "";
+                    string prenomU = "";
+                    string anneeU = "";
                     int etat = 5;
-                    Console.WriteLine("Quel titre aimeriez-vous donner à votre livre");
-                    titre = Console.ReadLine();
+                    double valA = 0;
                     Console.WriteLine("Veuillez donner votre nom pour votre livre");
-                    auteur = Console.ReadLine();
-                    livre = new Livre(titre, auteur, etat);
+                    nomU = Console.ReadLine();
+                    Console.WriteLine("Veuillez donner votre prénom pour votre livre");
+                    prenomU = Console.ReadLine();
+                    Console.WriteLine("Quel titre aimeriez-vous donner à votre livre");
+                    titreU = Console.ReadLine();
+                    DonneeUti(anneeU , out valA);
+                    livre = new Livre(nomU, prenomU, titreU, valA, etat);
                     biblio.Ajoute(livre);
                 }
-
                 if(info.Key == ConsoleKey.D)
                 {
                     livre.Degrade();
@@ -49,16 +55,22 @@ namespace _6TTI_Limet_Maxence_Bibli
 
                 if(info.Key == ConsoleKey.A)
                 {
-                    string nom = "";
-                    string prenom = "";
-                    string email = "";
+                    string nomU = "";
+                    string prenomU = "";
+                    string emailU = "";
+                    string loginU = "";
+                    string mdpU = "";
                     Console.WriteLine("Quel est votre nom ?");
-                    nom = Console.ReadLine();
+                    nomU = Console.ReadLine();
                     Console.WriteLine("Quel est votre prénom ?");
-                    prenom = Console.ReadLine();
+                    prenomU = Console.ReadLine();
                     Console.WriteLine("Entrer votre adresse mail");
-                    email = Console.ReadLine();
-                    biblio.CreeAbonne(nom, prenom, email);
+                    emailU = Console.ReadLine();
+                    Console.WriteLine("Entrer un login");
+                    loginU = Console.ReadLine();
+                    Console.WriteLine("Entrer un mot de passe");
+                    mdpU = Console.ReadLine();
+                    biblio.CreeAbonne(nomU, prenomU, emailU, loginU, mdpU);
                 }
                 
                 if (info.Key == ConsoleKey.I)
@@ -138,6 +150,19 @@ namespace _6TTI_Limet_Maxence_Bibli
             }
             return trouve;
             
+        }
+
+        static void DonneeUti(string entreeU, out double val )
+        {
+            val = 0;
+            Console.WriteLine("En quelle année est-il parru ?");
+            entreeU = Console.ReadLine();
+            while (!double.TryParse(entreeU, out val))
+            {
+                Console.WriteLine("Ce nest pas une année conforme");
+                Console.WriteLine("En quelle année est-il parru ?");
+                entreeU = Console.ReadLine();
+            }
         }
     }
 }

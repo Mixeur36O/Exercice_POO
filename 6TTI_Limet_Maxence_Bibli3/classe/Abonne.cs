@@ -12,6 +12,8 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         private string _nom;
         private string _prenom;
         private string _email;
+        private string _login;
+        private string _password;
 
         //Props
         public string Nom
@@ -27,12 +29,24 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
             get { return _email; }
             set { _email = value; }
         }
+        public string Login
+        {
+            get { return _login; }
+            set { _login = value; }
+        }
+        public string Password
+        {
+            get { return _password; }
+            set { _password = value; }
+        }
         //Construct
-        public Abonne(string nom, string prenom, string email)
+        public Abonne(string nom, string prenom, string email, string login, string mdp)
         {
             _nom = nom;
             _prenom = prenom;
             _email = email;
+            _login = login;
+            _password = mdp;
         }
 
         //Méthodes
