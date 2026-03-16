@@ -9,6 +9,7 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
     internal class Livre
     {
         //Attributs
+        private int _id;
         private string _titre;
         private string _nom;
         private string _prenom;
@@ -16,6 +17,12 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         private int _etat;
 
         //Props
+        public int Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+
 
         public string Titre
         {
@@ -41,8 +48,9 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         }
 
         //Construct
-        public Livre(string nom, string prenom, string titre, double anneeP, int etat)
+        public Livre(int id, string nom, string prenom, string titre, double anneeP, int etat)
         {
+            _id = id;
             _nom = nom;
             _prenom = prenom;
             _titre = titre;

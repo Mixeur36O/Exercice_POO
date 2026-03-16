@@ -2,6 +2,7 @@
 using Google.Protobuf.WellKnownTypes;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Data;
 using System.Runtime.CompilerServices;
 
 namespace _6TTI_Limet_Maxence_Bibli
@@ -15,7 +16,9 @@ namespace _6TTI_Limet_Maxence_Bibli
 
             string recommencer = "";
             Bibliotheque biblio = new Bibliotheque();
-            Livre livre = new Livre("","","",0,0);
+            Livre livre = new Livre(0,"","","",0,0);
+            MesDonnees donnee = new MesDonnees();
+            DataSet donneeL = new DataSet();
 
             string choixC = "";
             do
@@ -44,8 +47,16 @@ namespace _6TTI_Limet_Maxence_Bibli
                     Console.WriteLine("Quel titre aimeriez-vous donner à votre livre");
                     titreU = Console.ReadLine();
                     DonneeUti(anneeU , out valA);
-                    livre = new Livre(nomU, prenomU, titreU, valA, etat);
-                    biblio.Ajoute(livre);
+                    Livre livreExistant;
+                    if (!donnee.TrouveUnLivre(titreU,out livreExistant, donneeL))
+                    {
+                        biblio.Ajoute(nomU, prenomU, titreU, valA, etat);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Votre livre existe déjà");
+                    }
+                    
                 }
                 if(info.Key == ConsoleKey.D)
                 {

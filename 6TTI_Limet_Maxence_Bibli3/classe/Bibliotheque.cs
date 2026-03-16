@@ -1,12 +1,13 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using MySqlX.XDevAPI.Relational;
+using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Diagnostics;
 using System.Linq;
 using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data;
-using MySql.Data.MySqlClient;
-using System.Diagnostics;
 
 
 namespace _6TTI_Limet_Maxence_Bibli.classe
@@ -36,20 +37,41 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
             set { _abonnes = value; }
         }
         //Construct
+        MesDonnees donnee = new MesDonnees();
+        DataSet donneesL = new DataSet();
         public Bibliotheque()
         {
             _livres = new List<Livre>();
+            if (donnee.AfficheDataLivre("livres", donneesL))
+            {
+                for (int i = 0; i < donneesL.Tables[0].Rows.Count; i++)
+                {
+                    Livre unLivre = new Livre((int)donneesL.Tables[0].Rows[i]["id"], 
+                        donneesL.Tables[0].Rows[i]["nom"].ToString(),
+                        donneesL.Tables[0].Rows[i]["prenom"].ToString(),
+                        donneesL.Tables[0].Rows[i]["titre"].ToString(),
+                        (double)donneesL.Tables[0].Rows[i]["anneeP"],
+                        (int)donneesL.Tables[0].Rows[i]["etat"]);
+                    _livres.Add(unLivre);
+                }
+            }
             _abonnes = new List<Abonne>();
             _emprunts = new List<Emprunt>();
         }
-
-        MesDonnees donnee = new MesDonnees();
         //Méthodes
 
-        public void Ajoute(Livre livre)
+        public string Ajoute(string nom, string prenom, string titre, double anneeP, int etat)
         {
-            _livres.Add(livre);
-            donnee.AjouteLivre(livre);
+            string info = "";
+            if (donnee.AjouteLivre(nom, prenom, titre, anneeP, etat, out int id))
+            {
+                _livres.Add(new Livre(id, nom, prenom, titre, anneeP, etat));
+                return info = "Le livre a bien été créer";
+            }
+            else
+            {
+                return info = "Le livre n'a pas pu être créer.";
+            }
         }
 
         public void supprime_livres_abimes()
@@ -84,6 +106,8 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         public void AjouteEmpruntLivre(Livre livre, Abonne emprunteur, DateTime dateEmprunt)
         {
             _emprunts.Add(new Emprunt(livre, dateEmprunt, emprunteur));
+            Emprunt empr = new Emprunt(livre, dateEmprunt, emprunteur);
+            donnee.AjouteEmprunt(empr);
         }
 
         public string NotifieRetourLivre(Emprunt emprunt, DateTime dateRetour)
