@@ -39,7 +39,7 @@ namespace _6TTI_Limet_Maxence_Bibli
                     string prenomU = "";
                     string anneeU = "";
                     int etat = 5;
-                    double valA = 0;
+                    int valA = 0;
                     Console.WriteLine("Veuillez donner votre nom pour votre livre");
                     nomU = Console.ReadLine();
                     Console.WriteLine("Veuillez donner votre prénom pour votre livre");
@@ -47,20 +47,23 @@ namespace _6TTI_Limet_Maxence_Bibli
                     Console.WriteLine("Quel titre aimeriez-vous donner à votre livre");
                     titreU = Console.ReadLine();
                     DonneeUti(anneeU , out valA);
-                    Livre livreExistant;
-                    if (!donnee.TrouveUnLivre(titreU,out livreExistant, donneeL))
-                    {
-                        biblio.Ajoute(nomU, prenomU, titreU, valA, etat);
-                    }
-                    else
-                    {
-                        Console.WriteLine("Votre livre existe déjà");
-                    }
+                    biblio.Ajoute(nomU, prenomU, titreU, valA, etat);
+                    //if (!donnee.TrouveUnLivre(titreU, out livreExistant, donneeL))
+                    //{
+                    //    
+                    //}
+                    //else
+                    //{
+                    //    Console.WriteLine("Votre livre existe déjà");
+                    //}
                     
                 }
                 if(info.Key == ConsoleKey.D)
                 {
-                    livre.Degrade();
+                    string entreeU = "";
+                    int val = 0;
+                    DonneeUti(entreeU, out val);
+                    livre.Degrade(val);
                     Console.WriteLine("Dégradation du Livre réussis");
                 }
 
@@ -163,12 +166,12 @@ namespace _6TTI_Limet_Maxence_Bibli
             
         }
 
-        static void DonneeUti(string entreeU, out double val )
+        static void DonneeUti(string entreeU, out int val )
         {
             val = 0;
             Console.WriteLine("En quelle année est-il parru ?");
             entreeU = Console.ReadLine();
-            while (!double.TryParse(entreeU, out val))
+            while (!int.TryParse(entreeU, out val))
             {
                 Console.WriteLine("Ce nest pas une année conforme");
                 Console.WriteLine("En quelle année est-il parru ?");

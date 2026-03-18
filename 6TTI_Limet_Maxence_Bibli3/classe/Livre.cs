@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,8 +15,10 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         private string _titre;
         private string _nom;
         private string _prenom;
-        private double _anneeP;
+        private int _anneeP;
         private int _etat;
+        MesDonnees donnee = new MesDonnees();
+        DataSet donneesL = new DataSet();
 
         //Props
         public int Id
@@ -37,7 +41,7 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         {
             get { return _nom; }
         }
-        public double AnneeP
+        public int AnneeP
         {
             get { return _anneeP; }
         }
@@ -48,7 +52,7 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         }
 
         //Construct
-        public Livre(int id, string nom, string prenom, string titre, double anneeP, int etat)
+        public Livre(int id, string nom, string prenom, string titre, int anneeP, int etat)
         {
             _id = id;
             _nom = nom;
@@ -59,15 +63,17 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         }
 
         //Méthodes
-        public void Degrade()
+        public void Degrade(int id)
         {
+            donnee.DegradL(id);
             _etat -= 1;
         }
 
         public string Description()
         {
             string infos;
-            infos = $"{_titre}, écris par {_nom} {_prenom} en {AnneeP}. \n Il est dans l'état {_etat}";
+            infos = $"{_titre}, écris par {_nom} {_prenom} en {AnneeP}. \n Il est dans l'état {_etat} \n" +
+                $"Son id est {_id}";
             return infos;
         }
     }

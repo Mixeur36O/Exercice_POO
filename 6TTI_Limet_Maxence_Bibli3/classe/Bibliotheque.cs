@@ -42,15 +42,15 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         public Bibliotheque()
         {
             _livres = new List<Livre>();
-            if (donnee.AfficheDataLivre("livres", donneesL))
+            if (donnee.AfficheDataLivre("livres", out donneesL))
             {
                 for (int i = 0; i < donneesL.Tables[0].Rows.Count; i++)
                 {
-                    Livre unLivre = new Livre((int)donneesL.Tables[0].Rows[i]["id"], 
+                    Livre unLivre = new Livre((int)donneesL.Tables[0].Rows[i]["id"],
                         donneesL.Tables[0].Rows[i]["nom"].ToString(),
                         donneesL.Tables[0].Rows[i]["prenom"].ToString(),
                         donneesL.Tables[0].Rows[i]["titre"].ToString(),
-                        (double)donneesL.Tables[0].Rows[i]["anneeP"],
+                        (int)donneesL.Tables[0].Rows[i]["annee_parution"],
                         (int)donneesL.Tables[0].Rows[i]["etat"]);
                     _livres.Add(unLivre);
                 }
@@ -60,7 +60,7 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         }
         //Méthodes
 
-        public string Ajoute(string nom, string prenom, string titre, double anneeP, int etat)
+        public string Ajoute(string nom, string prenom, string titre, int anneeP, int etat)
         {
             string info = "";
             if (donnee.AjouteLivre(nom, prenom, titre, anneeP, etat, out int id))
@@ -78,9 +78,10 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         {
             for (int iBiblio = 0; iBiblio < _livres.Count; iBiblio++)
             {
-                if (_livres[iBiblio].Etat == 0)
+                if (_livres[iBiblio].Etat <= 0)
                 {
                     _livres.Remove(_livres[iBiblio]);
+                    donnee.SuppL(_livres[iBiblio].Etat);
                 }
             }
         }

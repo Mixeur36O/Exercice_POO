@@ -4,6 +4,7 @@ using MySql.Data.MySqlClient;
 using MySqlX.XDevAPI.Relational;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Data.Common;
 using System.Diagnostics;
@@ -11,6 +12,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Org.BouncyCastle.Asn1.Cmp.Challenge;
 
 
 namespace _6TTI_Limet_Maxence_Bibli
@@ -117,6 +119,61 @@ namespace _6TTI_Limet_Maxence_Bibli
             }
             return ok;
         }
+
+        public bool DegradL(int id)
+        {
+            bool ok = false;
+            MySqlConnection maConnexion = new MySqlConnection(DefinirCheminBD());
+            string query = "";
+            try
+            {
+                maConnexion.Open();
+                query = $"UPDATE livres SET etat = etat-1 WHERE Id = {id};";
+
+                MySqlCommand insertCommand = new MySqlCommand(query, maConnexion);
+
+                // Ajout des données à la source de données
+                if (insertCommand.ExecuteNonQuery() > 0)
+                {
+                    ok = true;
+                }
+                maConnexion.Close();
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                throw;
+            }
+            return ok;
+        }
+
+        public bool SuppL(int etat)
+        {
+            bool ok = false;
+            MySqlConnection maConnexion = new MySqlConnection(DefinirCheminBD());
+            string query = "";
+            try
+            {
+                maConnexion.Open();
+                query = $"DELETE FROM livres WHERE etat <= 0;";
+                MySqlCommand insertCommand = new MySqlCommand(query, maConnexion);
+
+                // Ajout des données à la source de données
+                if (insertCommand.ExecuteNonQuery() > 0)
+                {
+                    ok = true;
+                }
+                maConnexion.Close();
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                throw;
+            }
+            return ok;
+        }
+
+
         public bool AjouteEmprunt(Emprunt emprunt)
         {
             bool ok = false;
@@ -163,7 +220,7 @@ namespace _6TTI_Limet_Maxence_Bibli
             return infos;
         }
 
-        public bool AfficheDataLivre(string table, DataSet donneesL)
+        public bool AfficheDataLivre(string table, out DataSet donneesL)
         {
             bool ok = false;
             MySqlConnection maConnection = new MySqlConnection(DefinirCheminBD());
@@ -193,34 +250,34 @@ namespace _6TTI_Limet_Maxence_Bibli
             return ok;
         }
 
-        public bool TrouveUnLivre(string titreU, out Livre livreExistant, DataSet donneesL)
-        {
-            bool ok = false;
-            MySqlConnection maConnection = new MySqlConnection(DefinirCheminBD());
-            string query = "";
-            try
-            {
-                maConnection.Open();
+        //public bool TrouveUnLivre(string titreU, out Livre livreExistant, DataSet donneesL)
+        //{
+        //    bool ok = false;
+        //    MySqlConnection maConnection = new MySqlConnection(DefinirCheminBD());
+        //    string query = "";
+        //    try
+        //    {
+        //        maConnection.Open();
 
-                query = $"SELECT * FROM livre where titre = {titreU}";
+        //        query = $"SELECT * FROM livre where titre = {titreU}";
 
-                MySqlDataAdapter da = new MySqlDataAdapter(query, maConnection);
-                donneesL = new DataSet();
-                da.Fill(donneesL, "infoTable");
+        //        MySqlDataAdapter da = new MySqlDataAdapter(query, maConnection);
+        //        donneesL = new DataSet();
+        //        da.Fill(donneesL, "infoTable");
 
-                maConnection.Close();
+        //        maConnection.Close();
 
-                if (donneesL.Tables[0].Rows.Count >= 1)
-                {
-                    ok = true;
-                }
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine(ex);
-                throw;
-            }
-            return ok;
-        }
+        //        if (donneesL.Tables[0].Rows.Count >= 1)
+        //        {
+        //            ok = true;
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Debug.WriteLine(ex);
+        //        throw;
+        //    }
+        //    return ok;
+        //}
     }
 }
