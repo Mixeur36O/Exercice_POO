@@ -1,5 +1,6 @@
 ﻿using _6TTI_Limet_Maxence_Bibli.classe;
 using Google.Protobuf.WellKnownTypes;
+using Mysqlx;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,9 +29,10 @@ namespace _6TTI_Limet_Maxence_Bibli
                                   "D : Dégrader un livre \n" + 
                                   "A : Abonner vous \n" +
                                   "I : Inventaire \n" +
+                                  "L : Liste des abonnés \n" +
                                   "E : Emprunter un Livre \n" +
                                   "S : Supprimer les livre trop abîmer \n" +
-                                  "L : Pour afficher la liste des livre empruntés");
+                                  "P : Pour afficher la liste des livre empruntés");
                 ConsoleKeyInfo info = Console.ReadKey(true);
                 if (info.Key == ConsoleKey.C)
                 {
@@ -47,16 +49,16 @@ namespace _6TTI_Limet_Maxence_Bibli
                     Console.WriteLine("Quel titre aimeriez-vous donner à votre livre");
                     titreU = Console.ReadLine();
                     DonneeUti(anneeU , out valA);
-                    biblio.Ajoute(nomU, prenomU, titreU, valA, etat);
-                    //if (!donnee.TrouveUnLivre(titreU, out livreExistant, donneeL))
-                    //{
-                    //    
-                    //}
-                    //else
-                    //{
-                    //    Console.WriteLine("Votre livre existe déjà");
-                    //}
-                    
+                    Livre livreExistant;
+                    if (!TrouveUnLivre(titreU, biblio.Livres, out livreExistant))
+                    {
+                        biblio.Ajoute(nomU, prenomU, titreU, valA, etat);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Votre livre existe déjà");
+                    }
+
                 }
                 if(info.Key == ConsoleKey.D)
                 {
@@ -84,7 +86,15 @@ namespace _6TTI_Limet_Maxence_Bibli
                     loginU = Console.ReadLine();
                     Console.WriteLine("Entrer un mot de passe");
                     mdpU = Console.ReadLine();
-                    biblio.CreeAbonne(nomU, prenomU, emailU, loginU, mdpU);
+                    Abonne abonneExistant;
+                    if (!TrouveUnAbonne(loginU, biblio.Abonnes, out abonneExistant))
+                    {
+                        biblio.CreeAbonne(nomU, prenomU, emailU, loginU, mdpU);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Vous vous êtes déja abonné");
+                    }
                 }
                 
                 if (info.Key == ConsoleKey.I)
@@ -92,17 +102,24 @@ namespace _6TTI_Limet_Maxence_Bibli
                     Console.WriteLine(biblio.inventaire());
                 }
 
+                if (info.Key == ConsoleKey.L)
+                {
+                    Console.WriteLine(biblio.ListAbonne());
+                }
+
                 if (info.Key == ConsoleKey.E)
                 {
-                    string titre = "";
-                    Console.WriteLine("Choisisser un livre à emprunter");
-                    titre = Console.ReadLine();
-                    if (TrouveLivre(titre, biblio.Livres, out livre))
+                    string idL = "";
+                    Console.WriteLine("Choisisser un livre à emprunter en nous donnent son ID");
+                    idL = Console.ReadLine();
+                    DonneeID(idL, out int valId);
+                    if (TrouveLivre(valId, biblio.Livres, out livre))
                     {
-                        string nom = "";
-                        Console.WriteLine("Donner-moi votre nom d'abonne");
-                        nom = Console.ReadLine();
-                        if (TrouveEmprunteur(nom, biblio.Abonnes, out emprunteur))
+                        string idU = "";
+                        Console.WriteLine("Donner-moi votre Id");
+                        idU = Console.ReadLine();
+                        DonneeID(idU, out int valIdU);
+                        if (TrouveEmprunteur(valIdU, biblio.Abonnes, out emprunteur))
                         {
                             biblio.AjouteEmpruntLivre(livre, emprunteur, DateTime.Today);
                         }
@@ -115,7 +132,7 @@ namespace _6TTI_Limet_Maxence_Bibli
                     Console.WriteLine("La suppression des livres abîmés à bien été réussis");
                 }
 
-                if (info.Key == ConsoleKey.L)
+                if (info.Key == ConsoleKey.P)
                 {
                     Console.WriteLine(biblio.ListeLivresEmprunts());
                 }
@@ -127,13 +144,13 @@ namespace _6TTI_Limet_Maxence_Bibli
 
             
         }
-        static bool TrouveLivre(string titre, List<Livre> biblio, out Livre livre)
+        static bool TrouveLivre(int idU, List<Livre> biblio, out Livre livre)
         {
             bool trouve = false;
             livre = null;
             foreach (Livre item in biblio)
             {
-                if(item.Titre == titre)
+                if(item.Id == idU)
                 {
                     livre = item;
                     trouve = true;
@@ -146,13 +163,13 @@ namespace _6TTI_Limet_Maxence_Bibli
             return trouve;
         }
 
-        static bool TrouveEmprunteur(string nom, List<Abonne> biblio, out Abonne emprunteur)
+        static bool TrouveEmprunteur(int idU, List<Abonne> biblio, out Abonne emprunteur)
         {
             bool trouve = false;
             emprunteur = null;
             foreach(Abonne item in biblio)
             {
-                if (item.Nom == nom)
+                if (item.Id == idU)
                 {
                     emprunteur = item;
                     trouve = true;
@@ -177,6 +194,49 @@ namespace _6TTI_Limet_Maxence_Bibli
                 Console.WriteLine("En quelle année est-il parru ?");
                 entreeU = Console.ReadLine();
             }
+        }
+
+        static void DonneeID(string entreeU, out int val)
+        {
+            val = 0;
+            Console.WriteLine("Donné-moi un ID");
+            entreeU = Console.ReadLine();
+            while (!int.TryParse(entreeU, out val))
+            {
+                Console.WriteLine("Ce nest pas un Id conforme");
+                Console.WriteLine("Donné-moi un ID");
+                entreeU = Console.ReadLine();
+            }
+        }
+
+        static bool TrouveUnLivre(string titreU, List<Livre> biblio, out Livre livreExistant)
+        {
+            bool ok = false;
+            livreExistant = null;
+            foreach (Livre item in biblio)
+            {
+                if (item.Titre == titreU)
+                {
+                    livreExistant = item;
+                    ok = true;
+                }
+            }
+            return ok;
+        }
+
+        static bool TrouveUnAbonne(string loginU, List<Abonne> biblio, out Abonne abonneExistant)
+        {
+            bool ok = false;
+            abonneExistant = null;
+            foreach (Abonne item in biblio)
+            {
+                if (item.Login == loginU)
+                {
+                    abonneExistant = item;
+                    ok = true;
+                }
+            }
+            return ok;
         }
     }
 }

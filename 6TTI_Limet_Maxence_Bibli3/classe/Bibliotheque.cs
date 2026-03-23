@@ -42,7 +42,7 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         public Bibliotheque()
         {
             _livres = new List<Livre>();
-            if (donnee.AfficheDataLivre("livres", out donneesL))
+            if (donnee.AfficheData("livres", out donneesL))
             {
                 for (int i = 0; i < donneesL.Tables[0].Rows.Count; i++)
                 {
@@ -56,7 +56,32 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
                 }
             }
             _abonnes = new List<Abonne>();
+            if (donnee.AfficheData("abonnes", out donneesL))
+            {
+                for (int i = 0; i < donneesL.Tables[0].Rows.Count; i++)
+                {
+                    Abonne unAbonne = new Abonne((int)donneesL.Tables[0].Rows[i]["id"],
+                        donneesL.Tables[0].Rows[i]["nom"].ToString(),
+                        donneesL.Tables[0].Rows[i]["prenom"].ToString(),
+                        donneesL.Tables[0].Rows[i]["email"].ToString(),
+                        donneesL.Tables[0].Rows[i]["login"].ToString(),
+                        donneesL.Tables[0].Rows[i]["motDePasse"].ToString());
+                    _abonnes.Add(unAbonne);
+                }
+            }
             _emprunts = new List<Emprunt>();
+            //if (donnee.AfficheData("emprunts", out donneesL))
+            //{
+            //    for (int i = 0; i < donneesL.Tables[0].Rows.Count; i++)
+            //    {
+            //        Emprunt unEmprunt = new Emprunt((int)donneesL.Tables[0].Rows[i]["id"],
+            //            (int)donneesL.Tables[0].Rows[i]["idLivre"],
+            //            (int)donneesL.Tables[0].Rows[i]["idAbonne"],
+            //            donneesL.Tables[0].Rows[i]["dateEmprunt"].ToString());
+            //        _emprunts.Add(unEmprunt);
+            //    }
+            //}
+
         }
         //Méthodes
 
@@ -94,22 +119,44 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
                 infos += $"Il y a comme livre : {_livres[iBiblio].Description()} \n";
             }
             return infos;
-
         }
 
-        public void CreeAbonne(string nom, string prenom, string email, string login, string mdp)
+        public string ListAbonne()
         {
-            _abonnes.Add(new Abonne(nom, prenom, email, login, mdp));
-            Abonne abo = new Abonne(nom, prenom, email, login, mdp);
-            donnee.AjouteAbonne(abo);
+            string infos = ""; 
+            for (int iBiblio = 0; iBiblio < _abonnes.Count; iBiblio++)
+            {
+                infos += $"Il y a comme abonné : {_abonnes[iBiblio].infos()} \n";
+            }
+            return infos;
         }
 
-        public void AjouteEmpruntLivre(Livre livre, Abonne emprunteur, DateTime dateEmprunt)
+        public string CreeAbonne(string nom, string prenom, string email, string login, string mdp)
         {
-            _emprunts.Add(new Emprunt(livre, dateEmprunt, emprunteur));
-            Emprunt empr = new Emprunt(livre, dateEmprunt, emprunteur);
-            donnee.AjouteEmprunt(empr);
+            string info = "";
+            if (donnee.AjouteAbonne(nom, prenom, email, login, mdp, out int id))
+            {
+                _abonnes.Add(new Abonne(id, nom, prenom, email, login, mdp));
+                return info = "Vous vous êtes bien abonné";
+            }
+            else
+            {
+                return info = "Il y a eu une erreur avec la base de donnée, désolé";
+            }
         }
+
+        public void AjouteEmpruntLivre(Livre livre, Abonne abonne, DateTime dateEmprunt)
+        {
+            string info = "";
+            DateTime aujourdhui = DateTime.Now;
+            DateTime dateRetour = aujourdhui.AddDays(15);
+            if (donnee.AjouteEmprunt(livre.Id, abonne.Id, dateEmprunt, dateRetour, out int id))
+            {
+                _emprunts.Add(new Emprunt(id, livre, abonne, dateEmprunt));
+
+            }
+        }
+
 
         public string NotifieRetourLivre(Emprunt emprunt, DateTime dateRetour)
         {

@@ -27,7 +27,6 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
             set { _id = value; }
         }
 
-
         public string Titre
         {
             get { return _titre; }

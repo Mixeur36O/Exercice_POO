@@ -52,8 +52,9 @@ namespace _6TTI_Limet_Maxence_Bibli
             return ok;
         }
 
-        public bool AjouteAbonne(Abonne abo)
+        public bool AjouteAbonne(string nom, string prenom, string email, string login, string motDePasse, out int id)
         {
+            id = 0;
             bool ok = false;
             MySqlConnection maConnexion = new MySqlConnection(DefinirCheminBD());
             string query = "";
@@ -64,16 +65,17 @@ namespace _6TTI_Limet_Maxence_Bibli
 
                 MySqlCommand insertCommand = new MySqlCommand(query, maConnexion);
 
-                insertCommand.Parameters.AddWithValue("@nom", abo.Nom);
-                insertCommand.Parameters.AddWithValue("@prenom", abo.Prenom);
-                insertCommand.Parameters.AddWithValue("@email", abo.Email);
-                insertCommand.Parameters.AddWithValue("@login", abo.Login);
-                insertCommand.Parameters.AddWithValue("@motDePasse", abo.Password);
+                insertCommand.Parameters.AddWithValue("@nom", nom);
+                insertCommand.Parameters.AddWithValue("@prenom", prenom);
+                insertCommand.Parameters.AddWithValue("@email", email);
+                insertCommand.Parameters.AddWithValue("@login", login);
+                insertCommand.Parameters.AddWithValue("@motDePasse", motDePasse);
 
                 // Ajout des données à la source de données
                 if (insertCommand.ExecuteNonQuery() > 0)
                 {
                     ok = true;
+                    id = (int)insertCommand.LastInsertedId;
                 }
                 maConnexion.Close();
             }
@@ -174,9 +176,10 @@ namespace _6TTI_Limet_Maxence_Bibli
         }
 
 
-        public bool AjouteEmprunt(Emprunt emprunt)
+        public bool AjouteEmprunt(int idL, int idA, DateTime dateemprunt, DateTime dateRetour, out int id)
         {
             bool ok = false;
+            id = 0;
             MySqlConnection maConnexion = new MySqlConnection(DefinirCheminBD());
             string query = "";
             try
@@ -186,16 +189,16 @@ namespace _6TTI_Limet_Maxence_Bibli
 
                 MySqlCommand insertCommand = new MySqlCommand(query, maConnexion);
 
-                insertCommand.Parameters.AddWithValue("@idLivre", emprunt.LivreEmprunte);
-                insertCommand.Parameters.AddWithValue("@idAbonne", emprunt.Emprunteur);
-                insertCommand.Parameters.AddWithValue("@dateEmprunt", emprunt.DateEmprunt);
-                insertCommand.Parameters.AddWithValue("@dateRetour", emprunt.DateRetour);
+                insertCommand.Parameters.AddWithValue("@idLivre", idL);
+                insertCommand.Parameters.AddWithValue("@idAbonne", idA);
+                insertCommand.Parameters.AddWithValue("@dateEmprunt", dateemprunt);
+                insertCommand.Parameters.AddWithValue("@dateRetour", dateRetour);
 
                 // Ajout des données à la source de données
                 if (insertCommand.ExecuteNonQuery() > 0)
                 {
                     ok = true;
-                    
+                    id = (int)insertCommand.LastInsertedId;
                 }
                 maConnexion.Close();
             }
@@ -220,7 +223,7 @@ namespace _6TTI_Limet_Maxence_Bibli
             return infos;
         }
 
-        public bool AfficheDataLivre(string table, out DataSet donneesL)
+        public bool AfficheData(string table, out DataSet donneesL)
         {
             bool ok = false;
             MySqlConnection maConnection = new MySqlConnection(DefinirCheminBD());
@@ -250,34 +253,5 @@ namespace _6TTI_Limet_Maxence_Bibli
             return ok;
         }
 
-        //public bool TrouveUnLivre(string titreU, out Livre livreExistant, DataSet donneesL)
-        //{
-        //    bool ok = false;
-        //    MySqlConnection maConnection = new MySqlConnection(DefinirCheminBD());
-        //    string query = "";
-        //    try
-        //    {
-        //        maConnection.Open();
-
-        //        query = $"SELECT * FROM livre where titre = {titreU}";
-
-        //        MySqlDataAdapter da = new MySqlDataAdapter(query, maConnection);
-        //        donneesL = new DataSet();
-        //        da.Fill(donneesL, "infoTable");
-
-        //        maConnection.Close();
-
-        //        if (donneesL.Tables[0].Rows.Count >= 1)
-        //        {
-        //            ok = true;
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Debug.WriteLine(ex);
-        //        throw;
-        //    }
-        //    return ok;
-        //}
     }
 }

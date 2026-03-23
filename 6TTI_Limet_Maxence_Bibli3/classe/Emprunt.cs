@@ -13,8 +13,15 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         private DateTime _dateEmprunt;
         private DateTime _dateRetour;
         private Abonne _emprunteur;
+        private int _id;
 
         //Props
+        public int Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+
         public Livre LivreEmprunte
         {
             get { return _livreEmprunte; }
@@ -36,8 +43,9 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
             set { _emprunteur = value; }
         }
         //Construct
-        public Emprunt(Livre livre, DateTime dateEmprunt, Abonne emprunteur)
+        public Emprunt(int id, Livre livre, Abonne emprunteur, DateTime dateEmprunt)
         {
+            _id = id;
             _livreEmprunte = livre;
             _dateEmprunt = dateEmprunt;
             _emprunteur = emprunteur;
