@@ -55,8 +55,7 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
 
         public string infos()
         {
-            string info = $"Le livre emprunter est {_livreEmprunte}, pris par {_emprunteur}. \n" +
-                $"Du {_dateEmprunt} au {_dateRetour}"; 
+            string info = $"Le livre emprunter est {_livreEmprunte.Titre}, pris par {_emprunteur.Nom} {_emprunteur.Prenom}. Le {_dateEmprunt}";
             return info;
         }
 

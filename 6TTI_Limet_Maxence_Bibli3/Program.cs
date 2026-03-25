@@ -20,6 +20,7 @@ namespace _6TTI_Limet_Maxence_Bibli
             Livre livre = new Livre(0,"","","",0,0);
             MesDonnees donnee = new MesDonnees();
             DataSet donneeL = new DataSet();
+            MethodeProgramme mdtPro = new MethodeProgramme();
 
             string choixC = "";
             do
@@ -48,9 +49,9 @@ namespace _6TTI_Limet_Maxence_Bibli
                     prenomU = Console.ReadLine();
                     Console.WriteLine("Quel titre aimeriez-vous donner à votre livre");
                     titreU = Console.ReadLine();
-                    DonneeUti(anneeU , out valA);
+                    mdtPro.DonneeUti(anneeU , out valA);
                     Livre livreExistant;
-                    if (!TrouveUnLivre(titreU, biblio.Livres, out livreExistant))
+                    if (!mdtPro.TrouveUnLivre(titreU, biblio.Livres, out livreExistant))
                     {
                         biblio.Ajoute(nomU, prenomU, titreU, valA, etat);
                     }
@@ -64,7 +65,7 @@ namespace _6TTI_Limet_Maxence_Bibli
                 {
                     string entreeU = "";
                     int val = 0;
-                    DonneeUti(entreeU, out val);
+                    mdtPro.DonneeUti(entreeU, out val);
                     livre.Degrade(val);
                     Console.WriteLine("Dégradation du Livre réussis");
                 }
@@ -87,7 +88,7 @@ namespace _6TTI_Limet_Maxence_Bibli
                     Console.WriteLine("Entrer un mot de passe");
                     mdpU = Console.ReadLine();
                     Abonne abonneExistant;
-                    if (!TrouveUnAbonne(loginU, biblio.Abonnes, out abonneExistant))
+                    if (!mdtPro.TrouveUnAbonne(loginU, biblio.Abonnes, out abonneExistant))
                     {
                         biblio.CreeAbonne(nomU, prenomU, emailU, loginU, mdpU);
                     }
@@ -110,16 +111,14 @@ namespace _6TTI_Limet_Maxence_Bibli
                 if (info.Key == ConsoleKey.E)
                 {
                     string idL = "";
-                    Console.WriteLine("Choisisser un livre à emprunter en nous donnent son ID");
-                    idL = Console.ReadLine();
-                    DonneeID(idL, out int valId);
-                    if (TrouveLivre(valId, biblio.Livres, out livre))
+                    Console.WriteLine("Nous allons demander l'id de livre que vous voulez emprunter\n");
+                    mdtPro.DonneeID(idL, out int valId);
+                    if (mdtPro.TrouveLivre(valId, biblio.Livres, out livre))
                     {
                         string idU = "";
-                        Console.WriteLine("Donner-moi votre Id");
-                        idU = Console.ReadLine();
-                        DonneeID(idU, out int valIdU);
-                        if (TrouveEmprunteur(valIdU, biblio.Abonnes, out emprunteur))
+                        Console.WriteLine("Nous allons demander votre id d'abonner \n");
+                        mdtPro.DonneeID(idU, out int valIdU);
+                        if (mdtPro.TrouveEmprunteur(valIdU, biblio.Abonnes, out emprunteur))
                         {
                             biblio.AjouteEmpruntLivre(livre, emprunteur, DateTime.Today);
                         }
@@ -143,100 +142,6 @@ namespace _6TTI_Limet_Maxence_Bibli
 
 
             
-        }
-        static bool TrouveLivre(int idU, List<Livre> biblio, out Livre livre)
-        {
-            bool trouve = false;
-            livre = null;
-            foreach (Livre item in biblio)
-            {
-                if(item.Id == idU)
-                {
-                    livre = item;
-                    trouve = true;
-                }
-                else
-                {
-                    Console.WriteLine("Vos livre ne se trouve pas en bibliothèque");
-                }
-            }
-            return trouve;
-        }
-
-        static bool TrouveEmprunteur(int idU, List<Abonne> biblio, out Abonne emprunteur)
-        {
-            bool trouve = false;
-            emprunteur = null;
-            foreach(Abonne item in biblio)
-            {
-                if (item.Id == idU)
-                {
-                    emprunteur = item;
-                    trouve = true;
-                }
-                else
-                {
-                    Console.WriteLine("Désoler vous n'êtes pas abonner");
-                }
-            }
-            return trouve;
-            
-        }
-
-        static void DonneeUti(string entreeU, out int val )
-        {
-            val = 0;
-            Console.WriteLine("En quelle année est-il parru ?");
-            entreeU = Console.ReadLine();
-            while (!int.TryParse(entreeU, out val))
-            {
-                Console.WriteLine("Ce nest pas une année conforme");
-                Console.WriteLine("En quelle année est-il parru ?");
-                entreeU = Console.ReadLine();
-            }
-        }
-
-        static void DonneeID(string entreeU, out int val)
-        {
-            val = 0;
-            Console.WriteLine("Donné-moi un ID");
-            entreeU = Console.ReadLine();
-            while (!int.TryParse(entreeU, out val))
-            {
-                Console.WriteLine("Ce nest pas un Id conforme");
-                Console.WriteLine("Donné-moi un ID");
-                entreeU = Console.ReadLine();
-            }
-        }
-
-        static bool TrouveUnLivre(string titreU, List<Livre> biblio, out Livre livreExistant)
-        {
-            bool ok = false;
-            livreExistant = null;
-            foreach (Livre item in biblio)
-            {
-                if (item.Titre == titreU)
-                {
-                    livreExistant = item;
-                    ok = true;
-                }
-            }
-            return ok;
-        }
-
-        static bool TrouveUnAbonne(string loginU, List<Abonne> biblio, out Abonne abonneExistant)
-        {
-            bool ok = false;
-            abonneExistant = null;
-            foreach (Abonne item in biblio)
-            {
-                if (item.Login == loginU)
-                {
-                    abonneExistant = item;
-                    ok = true;
-                }
-            }
-            return ok;
         }
     }
 }

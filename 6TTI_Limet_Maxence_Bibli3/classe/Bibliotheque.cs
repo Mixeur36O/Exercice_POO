@@ -39,6 +39,7 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         //Construct
         MesDonnees donnee = new MesDonnees();
         DataSet donneesL = new DataSet();
+        MethodeProgramme mtdPro = new MethodeProgramme();
         public Bibliotheque()
         {
             _livres = new List<Livre>();
@@ -70,17 +71,22 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
                 }
             }
             _emprunts = new List<Emprunt>();
-            //if (donnee.AfficheData("emprunts", out donneesL))
-            //{
-            //    for (int i = 0; i < donneesL.Tables[0].Rows.Count; i++)
-            //    {
-            //        Emprunt unEmprunt = new Emprunt((int)donneesL.Tables[0].Rows[i]["id"],
-            //            (int)donneesL.Tables[0].Rows[i]["idLivre"],
-            //            (int)donneesL.Tables[0].Rows[i]["idAbonne"],
-            //            donneesL.Tables[0].Rows[i]["dateEmprunt"].ToString());
-            //        _emprunts.Add(unEmprunt);
-            //    }
-            //}
+            if (donnee.AfficheData("emprunts", out donneesL))
+            {
+                for (int i = 0; i < donneesL.Tables[0].Rows.Count; i++)
+                {
+                    Livre livreExistent;
+                    if (mtdPro.TrouveLivre((int)donneesL.Tables[0].Rows[i]["idLivre"], _livres, out livreExistent))
+                    {
+                        Abonne aboExistant;
+                        if (mtdPro.TrouveEmprunteur((int)donneesL.Tables[0].Rows[i]["idAbonne"], _abonnes, out aboExistant))
+                        {
+                            Emprunt unEmprunt = new Emprunt((int)donneesL.Tables[0].Rows[i]["idEmprunt"], livreExistent, aboExistant, (DateTime)donneesL.Tables[0].Rows[i]["dateEmprunt"]);
+                            _emprunts.Add(unEmprunt);
+                        }
+                    } 
+                }
+            }
 
         }
         //Méthodes
@@ -150,11 +156,8 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
             string info = "";
             DateTime aujourdhui = DateTime.Now;
             DateTime dateRetour = aujourdhui.AddDays(15);
-            if (donnee.AjouteEmprunt(livre.Id, abonne.Id, dateEmprunt, dateRetour, out int id))
-            {
-                _emprunts.Add(new Emprunt(id, livre, abonne, dateEmprunt));
-
-            }
+            donnee.AjouteEmprunt(livre.Id, abonne.Id, dateEmprunt, dateRetour, out int id);
+            _emprunts.Add(new Emprunt(id, livre, abonne, dateEmprunt));
         }
 
 
@@ -162,15 +165,14 @@ namespace _6TTI_Limet_Maxence_Bibli.classe
         {
             emprunt.DateRetour = dateRetour;
             return "Retour réussis";
-
         }
 
         public string ListeLivresEmprunts()
         {
             string infos = "";
-            for (int iBiblio = 0; iBiblio < _abonnes.Count; iBiblio++)
+            for (int iBiblio = 0; iBiblio < _emprunts.Count; iBiblio++)
             {
-                infos += $"Les livres empruntr sont : {_livres[iBiblio].Description()} par {_abonnes[iBiblio].infos()} \n";
+                infos += $"Les livres emprunter sont {_emprunts[iBiblio].infos()} \n";
             }
             return infos;
         }

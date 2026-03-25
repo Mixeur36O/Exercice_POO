@@ -185,7 +185,7 @@ namespace _6TTI_Limet_Maxence_Bibli
             try
             {
                 maConnexion.Open();
-                query = "INSERT INTO abonnes (idLivre, idAbonne, dateEmprunt, dateRetour) values (@idLivre, @idAbonne, @dateEmprunt, @dateRetour);";
+                query = "INSERT INTO emprunts (idLivre, idAbonne, dateEmprunt, dateRetour) values (@idLivre, @idAbonne, @dateEmprunt, @dateRetour);";
 
                 MySqlCommand insertCommand = new MySqlCommand(query, maConnexion);
 

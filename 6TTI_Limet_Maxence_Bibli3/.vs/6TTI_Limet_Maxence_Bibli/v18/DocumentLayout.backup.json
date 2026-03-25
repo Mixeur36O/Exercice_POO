@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_bibli3\\classe\\emprunt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|solutionrelative:classe\\emprunt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_bibli3\\classe\\abonne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|solutionrelative:classe\\abonne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_bibli3\\classe\\bibliotheque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|solutionrelative:classe\\bibliotheque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_bibli3\\classe\\emprunt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|solutionrelative:classe\\emprunt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_bibli3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_bibli3\\mesdonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|solutionrelative:mesdonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_bibli3\\methodeprogramme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|solutionrelative:methodeprogramme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_bibli3\\classe\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|solutionrelative:classe\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_bibli3\\mesdonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|solutionrelative:mesdonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\6tti_limet_maxence_bibli3\\classe\\abonne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1FCD3A-1318-4E54-9AC4-8FD08DD18E5B}|6TTI_Limet_Maxence_Bibli.csproj|solutionrelative:classe\\abonne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,63 +38,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "MethodeProgramme.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli3\\MethodeProgramme.cs",
+              "RelativeDocumentMoniker": "MethodeProgramme.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli3\\MethodeProgramme.cs",
+              "RelativeToolTip": "MethodeProgramme.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwFMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T08:18:21.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Bibliotheque.cs",
               "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli3\\classe\\Bibliotheque.cs",
               "RelativeDocumentMoniker": "classe\\Bibliotheque.cs",
               "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli3\\classe\\Bibliotheque.cs",
               "RelativeToolTip": "classe\\Bibliotheque.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAAAgwIAAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAuwFMAAACHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T17:04:32.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MesDonnees.cs",
               "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli3\\MesDonnees.cs",
               "RelativeDocumentMoniker": "MesDonnees.cs",
               "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli3\\MesDonnees.cs",
               "RelativeToolTip": "MesDonnees.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAqwMUAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAcwLsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T08:01:46.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli3\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli3\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAADgv3IAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T17:03:00.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Emprunt.cs",
               "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli3\\classe\\Emprunt.cs",
               "RelativeDocumentMoniker": "classe\\Emprunt.cs",
               "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli3\\classe\\Emprunt.cs",
               "RelativeToolTip": "classe\\Emprunt.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwDsAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA9wDkAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T07:55:36.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Livre.cs",
               "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli3\\classe\\Livre.cs",
               "RelativeDocumentMoniker": "classe\\Livre.cs",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Abonne.cs",
               "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\6TTI_Limet_Maxence_Bibli3\\classe\\Abonne.cs",
               "RelativeDocumentMoniker": "classe\\Abonne.cs",
@@ -111,8 +128,7 @@
               "RelativeToolTip": "classe\\Abonne.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAIwD4AAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T07:55:43.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T07:55:43.731Z"
             }
           ]
         }
