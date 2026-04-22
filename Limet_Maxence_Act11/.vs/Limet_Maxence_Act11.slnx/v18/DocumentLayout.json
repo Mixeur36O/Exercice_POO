@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_Act11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0CFCADA4-898B-4DB4-A0B8-98E0266CB28D}|Limet_Maxence_Act11.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\limet_maxence_act11\\classe\\personne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CFCADA4-898B-4DB4-A0B8-98E0266CB28D}|Limet_Maxence_Act11.csproj|solutionrelative:classe\\personne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CFCADA4-898B-4DB4-A0B8-98E0266CB28D}|Limet_Maxence_Act11.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\limet_maxence_act11\\classe\\enseignant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CFCADA4-898B-4DB4-A0B8-98E0266CB28D}|Limet_Maxence_Act11.csproj|solutionrelative:classe\\enseignant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CFCADA4-898B-4DB4-A0B8-98E0266CB28D}|Limet_Maxence_Act11.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\limet_maxence_act11\\classe\\etudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CFCADA4-898B-4DB4-A0B8-98E0266CB28D}|Limet_Maxence_Act11.csproj|solutionrelative:classe\\etudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CFCADA4-898B-4DB4-A0B8-98E0266CB28D}|Limet_Maxence_Act11.csproj|h:\\6tti\\c#\\poo\\exercice_poo\\limet_maxence_act11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CFCADA4-898B-4DB4-A0B8-98E0266CB28D}|Limet_Maxence_Act11.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enseignant.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_Act11\\classe\\Enseignant.cs",
+              "RelativeDocumentMoniker": "classe\\Enseignant.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_Act11\\classe\\Enseignant.cs",
+              "RelativeToolTip": "classe\\Enseignant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T08:01:58.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Etudiant.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_Act11\\classe\\Etudiant.cs",
+              "RelativeDocumentMoniker": "classe\\Etudiant.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_Act11\\classe\\Etudiant.cs",
+              "RelativeToolTip": "classe\\Etudiant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T08:01:45.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Personne.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_Act11\\classe\\Personne.cs",
+              "RelativeDocumentMoniker": "classe\\Personne.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_Act11\\classe\\Personne.cs",
+              "RelativeToolTip": "classe\\Personne.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T07:59:31.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_Act11\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "H:\\6TTI\\C#\\POO\\Exercice_POO\\Limet_Maxence_Act11\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T07:58:49.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
