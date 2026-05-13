@@ -36,7 +36,15 @@ namespace Limet_Maxence_Act11.classe
         }
 
         //Construct
+        public Personne(string nom, string prenom, string email, string tel)
+        {
+            _nom = nom;
+            _prenom = prenom;
+            _email = email;
+            _tel = tel;
+        }
 
         //Méthodes
+        public abstract string Infos();
     }
 }

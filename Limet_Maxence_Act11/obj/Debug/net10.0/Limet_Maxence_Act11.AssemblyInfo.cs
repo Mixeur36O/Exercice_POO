@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Limet_Maxence_Act11")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+453dc0dca32cad2b522fd57ce0bd8d71b15a522e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd020285b3b95301ab6291668e17d19c5d19bb5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Limet_Maxence_Act11")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Limet_Maxence_Act11")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

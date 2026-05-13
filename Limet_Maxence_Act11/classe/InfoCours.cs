@@ -4,16 +4,15 @@ using System.Text;
 
 namespace Limet_Maxence_Act11.classe
 {
-    internal class Etudiant : Personne
+    internal class InfoCours
     {
         //attributs
-        private int _anneeEntree;
-        private List<InfoCours> _listCours;
 
-        //props
+        //Props
 
         //Construct
 
         //Méthodes
+
     }
 }
